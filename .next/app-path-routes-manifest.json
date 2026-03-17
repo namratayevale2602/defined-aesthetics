@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog",
+  "/contact/page": "/contact",
+  "/gallery/page": "/gallery",
+  "/page": "/",
+  "/services/beauty-spot/page": "/services/beauty-spot",
+  "/services/eyebrows/page": "/services/eyebrows",
+  "/services/lip-blush/page": "/services/lip-blush",
+  "/services/page": "/services",
+  "/services/scalp-micropigmentation/page": "/services/scalp-micropigmentation"
+}

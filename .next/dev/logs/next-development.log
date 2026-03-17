@@ -1,0 +1,9 @@
+[00:00:03.797] Server  LOG     ✓ Ready in 2.6s
+[00:00:18.321] Server  LOG     ○ Compiling / ...
+[00:00:26.188] Browser WARN    Image with src "/images/eye_brows_before_after.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:26.189] Browser WARN    Image with src "/images/lip_before_after.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:26.189] Browser WARN    Image with src "/images/what_we_do.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:26.189] Browser WARN    Image with src "/images/what_we_do_2.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:43.317] Browser WARN    Image with src "/images/facial_before.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:43.317] Browser WARN    Image with src "/images/facial_after.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:07.978] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
