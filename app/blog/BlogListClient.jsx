@@ -32,7 +32,7 @@ export default function BlogListClient() {
       {/* Hero */}
       <section
         className="relative pt-32 pb-24 px-6 overflow-hidden flex items-center justify-center text-center"
-        style={{ background: "linear-gradient(160deg, #060F0C 0%, #0C3B2E 55%, #0F2D22 100%)", minHeight: "52vh" }}>
+        style={{ background: "linear-gradient(160deg, #432F4F 0%, #432F4F 50%, #432F4F 100%)", minHeight: "52vh" }}>
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[500px] rounded-full pointer-events-none"
           style={{ background: "radial-gradient(circle, rgba(201,164,53,0.1) 0%, transparent 70%)" }} />
@@ -72,7 +72,7 @@ export default function BlogListClient() {
         <div className="max-w-5xl mx-auto">
           <motion.p
             initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-            className="font-jost text-xs tracking-[0.3em] uppercase mb-6" style={{ color: "var(--gold)" }}>
+            className="font-jost text-xs tracking-[0.3em] uppercase mb-6" style={{ color: "var(--green-light)" }}>
             Featured Article
           </motion.p>
           <motion.div
@@ -81,7 +81,7 @@ export default function BlogListClient() {
               <div
                 className="rounded-3xl p-10 md:p-14 transition-all duration-400 hover:shadow-xl relative overflow-hidden"
                 style={{ background: "var(--green)", border: "1px solid rgba(201,164,53,0.2)" }}>
-                <div className="absolute top-6 right-6 opacity-10 pointer-events-none" style={{ color: "var(--gold)" }}>
+                <div className="absolute top-6 right-6 opacity-10 pointer-events-none" style={{ color: "var(--green-light)" }}>
                   <FloralDoodle size={120} />
                 </div>
                 <div className="flex items-center gap-3 mb-5">
@@ -121,12 +121,12 @@ export default function BlogListClient() {
           <div className="flex items-center gap-4 mb-10">
             <motion.p
               initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-              className="font-jost text-xs tracking-[0.3em] uppercase" style={{ color: "var(--gold)" }}>
+              className="font-jost text-xs tracking-[0.3em] uppercase" style={{ color: "var(--green-light)" }}>
               More Articles
             </motion.p>
             <motion.div
               initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}
-              className="flex-1 overflow-hidden" style={{ color: "var(--gold)" }}>
+              className="flex-1 overflow-hidden" style={{ color: "var(--green-light)" }}>
               <div style={{ height: "1px", background: "currentColor", opacity: 0.3, marginTop: "9px" }} />
             </motion.div>
           </div>

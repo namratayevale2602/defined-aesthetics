@@ -767,7 +767,7 @@ function ContactClient() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "relative pt-32 pb-24 px-6 overflow-hidden flex items-center justify-center text-center",
                 style: {
-                    background: "linear-gradient(160deg, #060F0C 0%, #0C3B2E 55%, #0F2D22 100%)",
+                    background: "linear-gradient(160deg, #432F4F 0%, #432F4F 50%, #432F4F 100%)",
                     minHeight: "52vh"
                 },
                 children: [
@@ -954,7 +954,7 @@ function ContactClient() {
                                     },
                                     className: "font-jost text-xs tracking-[0.3em] uppercase mb-3",
                                     style: {
-                                        color: "var(--gold)"
+                                        color: "var(--green-light)"
                                     },
                                     children: "Get in Touch"
                                 }, void 0, false, {
@@ -1005,7 +1005,7 @@ function ContactClient() {
                                     },
                                     className: "flex justify-center",
                                     style: {
-                                        color: "var(--gold)"
+                                        color: "var(--green-light)"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$DiamondLineDoodle$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         width: 160
@@ -1172,7 +1172,7 @@ function ContactClient() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "font-jost text-xs tracking-[0.3em] uppercase mb-3",
                                     style: {
-                                        color: "var(--gold)"
+                                        color: "var(--green-light)"
                                     },
                                     children: "Send an Enquiry"
                                 }, void 0, false, {
@@ -1195,7 +1195,7 @@ function ContactClient() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "mb-7",
                                     style: {
-                                        color: "var(--gold)"
+                                        color: "var(--green-light)"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$DiamondLineDoodle$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         width: 160
@@ -1451,7 +1451,7 @@ function ContactClient() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "font-jost text-xs text-center",
                                             style: {
-                                                color: "#aaa"
+                                                color: "var(--green-light)"
                                             },
                                             children: "Clicking send will open WhatsApp with your details pre-filled."
                                         }, void 0, false, {
@@ -1498,7 +1498,7 @@ function ContactClient() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "font-jost text-xs tracking-[0.3em] uppercase mb-2",
                                             style: {
-                                                color: "var(--gold)"
+                                                color: "var(--green-light)"
                                             },
                                             children: "Studio Info"
                                         }, void 0, false, {
@@ -1527,7 +1527,7 @@ function ContactClient() {
                                                             size: 16,
                                                             className: "mt-0.5 flex-shrink-0",
                                                             style: {
-                                                                color: "var(--gold)"
+                                                                color: "var(--green-light)"
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
@@ -1577,7 +1577,7 @@ function ContactClient() {
                                                             size: 16,
                                                             className: "mt-0.5 flex-shrink-0",
                                                             style: {
-                                                                color: "var(--gold)"
+                                                                color: "var(--green-light)"
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
@@ -1638,7 +1638,7 @@ function ContactClient() {
                                                             size: 16,
                                                             className: "mt-0.5 flex-shrink-0",
                                                             style: {
-                                                                color: "var(--gold)"
+                                                                color: "var(--green-light)"
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
@@ -1689,7 +1689,7 @@ function ContactClient() {
                                                             size: 16,
                                                             className: "mt-0.5 flex-shrink-0",
                                                             style: {
-                                                                color: "var(--gold)"
+                                                                color: "var(--green-light)"
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
@@ -1844,7 +1844,7 @@ function ContactClient() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "font-jost text-xs tracking-[0.3em] uppercase mb-4",
                                             style: {
-                                                color: "var(--gold)"
+                                                color: "var(--green-light)"
                                             },
                                             children: "Our Services"
                                         }, void 0, false, {
@@ -1863,7 +1863,7 @@ function ContactClient() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             style: {
-                                                                color: "var(--gold)"
+                                                                color: "var(--green-light)"
                                                             },
                                                             children: svc.icon
                                                         }, void 0, false, {
@@ -1929,7 +1929,7 @@ function ContactClient() {
                             },
                             className: "flex justify-center mb-6 opacity-25 pointer-events-none",
                             style: {
-                                color: "var(--gold)"
+                                color: "var(--green-light)"
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$FloralDoodle$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 size: 70

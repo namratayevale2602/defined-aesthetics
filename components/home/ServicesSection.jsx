@@ -63,7 +63,7 @@ export default function ServicesSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="font-jost text-xs tracking-[0.3em] uppercase mb-3"
-            style={{ color: "var(--gold)" }}
+            style={{ color: "var(--green-light)" }}
           >
             What We Do
           </motion.p>
@@ -83,7 +83,7 @@ export default function ServicesSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex justify-center"
-            style={{ color: "var(--gold)" }}
+            style={{ color: "var(--green-light)" }}
           >
             <DiamondLineDoodle width={180} />
           </motion.div>

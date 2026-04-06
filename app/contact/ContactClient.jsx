@@ -71,7 +71,7 @@ export default function ContactClient() {
       {/* Hero */}
       <section
         className="relative pt-32 pb-24 px-6 overflow-hidden flex items-center justify-center text-center"
-        style={{ background: "linear-gradient(160deg, #060F0C 0%, #0C3B2E 55%, #0F2D22 100%)", minHeight: "52vh" }}>
+        style={{ background: "linear-gradient(160deg, #432F4F 0%, #432F4F 50%, #432F4F 100%)", minHeight: "52vh" }}>
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[500px] rounded-full pointer-events-none"
           style={{ background: "radial-gradient(circle, rgba(201,164,53,0.1) 0%, transparent 70%)" }} />
@@ -112,7 +112,7 @@ export default function ContactClient() {
           <div className="text-center mb-14">
             <motion.p
               initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-              className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+              className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
               Get in Touch
             </motion.p>
             <motion.h2
@@ -122,7 +122,7 @@ export default function ContactClient() {
             </motion.h2>
             <motion.div
               initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
-              className="flex justify-center" style={{ color: "var(--gold)" }}>
+              className="flex justify-center" style={{ color: "var(--green-light)" }}>
               <DiamondLineDoodle width={160} />
             </motion.div>
           </div>
@@ -170,13 +170,13 @@ export default function ContactClient() {
           {/* Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-            <p className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+            <p className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
               Send an Enquiry
             </p>
             <h2 className="font-cormorant font-semibold mb-3" style={{ color: "var(--green)", fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}>
               Book via WhatsApp Form
             </h2>
-            <div className="mb-7" style={{ color: "var(--gold)" }}>
+            <div className="mb-7" style={{ color: "var(--green-light)" }}>
               <DiamondLineDoodle width={160} />
             </div>
 
@@ -266,7 +266,7 @@ export default function ContactClient() {
                   style={{ background: "var(--green)", color: "var(--gold-light)" }}>
                   <FaWhatsapp size={18} /> Send via WhatsApp
                 </button>
-                <p className="font-jost text-xs text-center" style={{ color: "#aaa" }}>
+                <p className="font-jost text-xs text-center" style={{ color: "var(--green-light)" }}>
                   Clicking send will open WhatsApp with your details pre-filled.
                 </p>
               </form>
@@ -281,20 +281,20 @@ export default function ContactClient() {
             <div
               className="bg-white rounded-2xl p-8"
               style={{ border: "1px solid rgba(201,164,53,0.15)" }}>
-              <p className="font-jost text-xs tracking-[0.3em] uppercase mb-2" style={{ color: "var(--gold)" }}>Studio Info</p>
+              <p className="font-jost text-xs tracking-[0.3em] uppercase mb-2" style={{ color: "var(--green-light)" }}>Studio Info</p>
               <h3 className="font-cormorant font-semibold text-xl mb-5" style={{ color: "var(--green)" }}>
                 Defined MD Aesthetics
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
+                  <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: "var(--green-light)" }} />
                   <div>
                     <div className="font-jost text-sm font-medium" style={{ color: "#333" }}>Location</div>
                     <div className="font-jost text-sm font-light" style={{ color: "#666" }}>Nashik, Maharashtra, India</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Clock size={16} className="mt-0.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
+                  <Clock size={16} className="mt-0.5 flex-shrink-0" style={{ color: "var(--green-light)" }} />
                   <div>
                     <div className="font-jost text-sm font-medium" style={{ color: "#333" }}>Working Hours</div>
                     <div className="font-jost text-sm font-light" style={{ color: "#666" }}>Monday – Saturday</div>
@@ -302,7 +302,7 @@ export default function ContactClient() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Phone size={16} className="mt-0.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
+                  <Phone size={16} className="mt-0.5 flex-shrink-0" style={{ color: "var(--green-light)" }} />
                   <div>
                     <div className="font-jost text-sm font-medium" style={{ color: "#333" }}>Phone / WhatsApp</div>
                     <a href="tel:+918422926464" className="font-jost text-sm font-light hover:underline" style={{ color: "#666" }}>
@@ -311,7 +311,7 @@ export default function ContactClient() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Mail size={16} className="mt-0.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
+                  <Mail size={16} className="mt-0.5 flex-shrink-0" style={{ color: "var(--green-light)" }} />
                   <div>
                     <div className="font-jost text-sm font-medium" style={{ color: "#333" }}>Email</div>
                     <a
@@ -359,7 +359,7 @@ export default function ContactClient() {
             <div
               className="bg-white rounded-2xl p-7"
               style={{ border: "1px solid rgba(201,164,53,0.15)" }}>
-              <p className="font-jost text-xs tracking-[0.3em] uppercase mb-4" style={{ color: "var(--gold)" }}>
+              <p className="font-jost text-xs tracking-[0.3em] uppercase mb-4" style={{ color: "var(--green-light)" }}>
                 Our Services
               </p>
               <div className="grid grid-cols-2 gap-2">
@@ -369,7 +369,7 @@ export default function ContactClient() {
                     href={`/services/${svc.slug}`}
                     className="flex items-center gap-2 font-jost text-sm py-2 transition-colors hover:underline"
                     style={{ color: "var(--green)" }}>
-                    <span style={{ color: "var(--gold)" }}>{svc.icon}</span>
+                    <span style={{ color: "var(--green-light)" }}>{svc.icon}</span>
                     {svc.shortTitle}
                   </Link>
                 ))}
@@ -384,7 +384,7 @@ export default function ContactClient() {
         <div className="max-w-xl mx-auto">
           <motion.div
             initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-            className="flex justify-center mb-6 opacity-25 pointer-events-none" style={{ color: "var(--gold)" }}>
+            className="flex justify-center mb-6 opacity-25 pointer-events-none" style={{ color: "var(--green-light)" }}>
             <FloralDoodle size={70} />
           </motion.div>
           <motion.h2

@@ -17,7 +17,7 @@ export default function TestimonialsSection() {
         <div className="text-center mb-16">
           <motion.p
             initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-            className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+            className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
             Client Love
           </motion.p>
           <motion.h2
@@ -27,7 +27,7 @@ export default function TestimonialsSection() {
           </motion.h2>
           <motion.div
             initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex justify-center" style={{ color: "var(--gold)" }}>
+            className="flex justify-center" style={{ color: "var(--green-light)" }}>
             <DiamondLineDoodle width={180} />
           </motion.div>
         </div>
@@ -61,7 +61,7 @@ export default function TestimonialsSection() {
                 </div>
                 <div>
                   <div className="font-jost text-sm font-medium" style={{ color: "var(--green)" }}>{t.name}</div>
-                  <div className="font-jost text-xs" style={{ color: "var(--gold)" }}>{t.service} · {t.location}</div>
+                  <div className="font-jost text-xs" style={{ color: "var(--green-light)" }}>{t.service} · {t.location}</div>
                 </div>
               </div>
             </motion.div>

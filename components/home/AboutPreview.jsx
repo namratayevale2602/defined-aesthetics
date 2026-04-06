@@ -27,7 +27,7 @@ export default function AboutPreview() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="font-jost text-xs tracking-[0.3em] uppercase mb-3"
-            style={{ color: "var(--gold)" }}
+            style={{ color: "var(--green-light)" }}
           >
             Meet the Artist
           </motion.p>
@@ -47,7 +47,7 @@ export default function AboutPreview() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-6"
-            style={{ color: "var(--gold)" }}
+            style={{ color: "var(--green-light)" }}
           >
             <DiamondLineDoodle width={160} />
           </motion.div>
@@ -84,7 +84,7 @@ export default function AboutPreview() {
                 className="flex items-start gap-3 font-jost text-sm"
                 style={{ color: "#444" }}
               >
-                <CheckCircle2 size={16} className="mt-0.5 shrink-0" style={{ color: "var(--gold)" }} />
+                <CheckCircle2 size={16} className="mt-0.5 shrink-0" style={{ color: "var(--green-light)" }} />
                 {item}
               </motion.li>
             ))}

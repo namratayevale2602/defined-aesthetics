@@ -1,14 +1,28 @@
 @import "tailwindcss";
 
 :root {
+  --green: #432F4F;
+  --green-light: #76397b;
+  --gold: #D8D1BE;
+  --gold-light: #e6e2da;
+  --cream: #FAF7F2;
+  --dark: #1A1A1A;
+  --rose: #C68BAA;
+}
+
+/* :root {
+  --purple: #432F4F;
+  --lightpurple: #76397b;
+  --herotext: #D8D1BE;
+  --heropara: #e6e2da;
   --green: #0C3B2E;
   --green-light: #1A5C46;
   --gold: #C9A435;
   --gold-light: #E8D5A3;
   --cream: #FAF7F2;
   --dark: #1A1A1A;
-  --rose: #C4818A;
-}
+  --rose: #C68BAA;
+} */
 
 html {
   scroll-behavior: smooth;

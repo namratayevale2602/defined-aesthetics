@@ -798,6 +798,14 @@
     max-height: calc(var(--spacing) * 0);
   }
 
+  .max-h-50 {
+    max-height: calc(var(--spacing) * 50);
+  }
+
+  .max-h-80 {
+    max-height: calc(var(--spacing) * 80);
+  }
+
   .max-h-\[600px\] {
     max-height: 600px;
   }
@@ -836,6 +844,10 @@
 
   .w-\[600px\] {
     width: 600px;
+  }
+
+  .w-auto {
+    width: auto;
   }
 
   .w-full {
@@ -1114,14 +1126,19 @@
     border-left-width: 2px;
   }
 
-  .border-\[\#C9A435\]\/15 {
-    border-color: #c9a43526;
-    border-color: lab(69.3445% 5.89049 59.4346 / .15);
-  }
-
   .border-\[\#C9A435\]\/20 {
     border-color: #c9a43533;
     border-color: lab(69.3445% 5.89049 59.4346 / .2);
+  }
+
+  .border-\[\#D8D1BE\]\/15 {
+    border-color: #d8d1be26;
+    border-color: lab(84.0221% .114441 10.3696 / .15);
+  }
+
+  .border-\[\#D8D1BE\]\/20 {
+    border-color: #d8d1be33;
+    border-color: lab(84.0221% .114411 10.3696 / .2);
   }
 
   .border-\[\#E8D5A3\]\/30 {
@@ -1160,17 +1177,31 @@
     background-color: lab(74.7716% -60.9649 41.133 / .2);
   }
 
+  .bg-\[\#25D366\]\/30 {
+    background-color: #25d3664d;
+    background-color: lab(74.7716% -60.9649 41.133 / .3);
+  }
+
   .bg-\[\#C9A435\] {
     background-color: #c9a435;
+  }
+
+  .bg-\[\#C68BAA\] {
+    background-color: #c68baa;
+  }
+
+  .bg-\[\#D8D1BE\] {
+    background-color: #d8d1be;
+  }
+
+  .bg-\[\#FAF7F2\]\/80 {
+    background-color: #faf7f2cc;
+    background-color: lab(97.3617% .39041 2.78084 / .8);
   }
 
   .bg-\[\#FAF7F2\]\/95 {
     background-color: #faf7f2f2;
     background-color: lab(97.3617% .39041 2.78084 / .95);
-  }
-
-  .bg-transparent {
-    background-color: #0000;
   }
 
   .bg-white {
@@ -1492,46 +1523,58 @@
     color: #25d366;
   }
 
+  .text-\[\#097e34\] {
+    color: #097e34;
+  }
+
+  .text-\[\#432F4F\] {
+    color: #432f4f;
+  }
+
   .text-\[\#C9A435\] {
     color: #c9a435;
   }
 
-  .text-\[\#C9A435\]\/50 {
-    color: #c9a43580;
-    color: lab(69.3445% 5.89049 59.4346 / .5);
+  .text-\[\#D8D1BE\] {
+    color: #d8d1be;
   }
 
-  .text-\[\#C9A435\]\/70 {
-    color: #c9a435b3;
-    color: lab(69.3445% 5.89049 59.4346 / .7);
+  .text-\[\#D8D1BE\]\/50 {
+    color: #d8d1be80;
+    color: lab(84.0221% .114411 10.3696 / .5);
+  }
+
+  .text-\[\#D8D1BE\]\/70 {
+    color: #d8d1beb3;
+    color: lab(84.0221% .114411 10.3696 / .7);
   }
 
   .text-\[\#E8D5A3\] {
     color: #e8d5a3;
   }
 
-  .text-\[\#E8D5A3\]\/40 {
-    color: #e8d5a366;
-    color: lab(85.944% 1.34861 27.321 / .4);
+  .text-\[\#e6e2da\] {
+    color: #e6e2da;
   }
 
-  .text-\[\#E8D5A3\]\/50 {
-    color: #e8d5a380;
-    color: lab(85.944% 1.34861 27.321 / .5);
+  .text-\[\#e6e2da\]\/40 {
+    color: #e6e2da66;
+    color: lab(90.0341% .369579 4.42716 / .4);
   }
 
-  .text-\[\#E8D5A3\]\/70 {
-    color: #e8d5a3b3;
-    color: lab(85.944% 1.34861 27.321 / .7);
+  .text-\[\#e6e2da\]\/50 {
+    color: #e6e2da80;
+    color: lab(90.0341% .369638 4.42714 / .5);
   }
 
-  .text-\[\#E8D5A3\]\/75 {
-    color: #e8d5a3bf;
-    color: lab(85.944% 1.34861 27.321 / .75);
+  .text-\[\#e6e2da\]\/70 {
+    color: #e6e2dab3;
+    color: lab(90.0341% .369638 4.42714 / .7);
   }
 
-  .text-\[\#FAF7F2\] {
-    color: #faf7f2;
+  .text-\[\#e6e2da\]\/75 {
+    color: #e6e2dabf;
+    color: lab(90.0341% .369638 4.42714 / .75);
   }
 
   .text-white {
@@ -1784,33 +1827,26 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-\[\#0C3B2E\]:hover {
-      background-color: #0c3b2e;
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:bg-\[\#25D366\]:hover {
       background-color: #25d366;
     }
   }
 
   @media (hover: hover) {
-    .hover\:bg-\[\#25D366\]\/30:hover {
-      background-color: #25d3664d;
-      background-color: lab(74.7716% -60.9649 41.133 / .3);
+    .hover\:bg-\[\#C68BAA\]:hover {
+      background-color: #c68baa;
     }
   }
 
   @media (hover: hover) {
-    .hover\:bg-\[\#C9A435\]:hover {
-      background-color: #c9a435;
+    .hover\:bg-\[\#D8D1BE\]:hover {
+      background-color: #d8d1be;
     }
   }
 
   @media (hover: hover) {
-    .hover\:bg-\[\#E8D5A3\]:hover {
-      background-color: #e8d5a3;
+    .hover\:bg-\[\#e6e2da\]:hover {
+      background-color: #e6e2da;
     }
   }
 
@@ -1845,8 +1881,20 @@
   }
 
   @media (hover: hover) {
+    .hover\:text-\[\#432F4F\]:hover {
+      color: #432f4f;
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:text-\[\#C9A435\]:hover {
       color: #c9a435;
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-\[\#D8D1BE\]:hover {
+      color: #d8d1be;
     }
   }
 
@@ -2086,13 +2134,13 @@
 }
 
 :root {
-  --green: #0c3b2e;
-  --green-light: #1a5c46;
-  --gold: #c9a435;
-  --gold-light: #e8d5a3;
+  --green: #432f4f;
+  --green-light: #76397b;
+  --gold: #d8d1be;
+  --gold-light: #e6e2da;
   --cream: #faf7f2;
   --dark: #1a1a1a;
-  --rose: #c4818a;
+  --rose: #c68baa;
 }
 
 html {

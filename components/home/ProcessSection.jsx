@@ -16,7 +16,7 @@ export default function ProcessSection() {
         <div className="text-center mb-16">
           <motion.p
             initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-            className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+            className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
             How It Works
           </motion.p>
           <motion.h2
@@ -26,7 +26,7 @@ export default function ProcessSection() {
           </motion.h2>
           <motion.div
             initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex justify-center" style={{ color: "var(--gold)" }}>
+            className="flex justify-center" style={{ color: "var(--green-light)" }}>
             <DiamondLineDoodle width={180} />
           </motion.div>
         </div>

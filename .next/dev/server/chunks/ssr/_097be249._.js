@@ -677,7 +677,7 @@ function BlogListClient() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "relative pt-32 pb-24 px-6 overflow-hidden flex items-center justify-center text-center",
                 style: {
-                    background: "linear-gradient(160deg, #060F0C 0%, #0C3B2E 55%, #0F2D22 100%)",
+                    background: "linear-gradient(160deg, #432F4F 0%, #432F4F 50%, #432F4F 100%)",
                     minHeight: "52vh"
                 },
                 children: [
@@ -861,7 +861,7 @@ function BlogListClient() {
                             },
                             className: "font-jost text-xs tracking-[0.3em] uppercase mb-6",
                             style: {
-                                color: "var(--gold)"
+                                color: "var(--green-light)"
                             },
                             children: "Featured Article"
                         }, void 0, false, {
@@ -897,7 +897,7 @@ function BlogListClient() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute top-6 right-6 opacity-10 pointer-events-none",
                                             style: {
-                                                color: "var(--gold)"
+                                                color: "var(--green-light)"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$FloralDoodle$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 size: 120
@@ -1074,7 +1074,7 @@ function BlogListClient() {
                                     },
                                     className: "font-jost text-xs tracking-[0.3em] uppercase",
                                     style: {
-                                        color: "var(--gold)"
+                                        color: "var(--green-light)"
                                     },
                                     children: "More Articles"
                                 }, void 0, false, {
@@ -1098,7 +1098,7 @@ function BlogListClient() {
                                     },
                                     className: "flex-1 overflow-hidden",
                                     style: {
-                                        color: "var(--gold)"
+                                        color: "var(--green-light)"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {

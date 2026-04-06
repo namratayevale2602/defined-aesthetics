@@ -35,7 +35,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section
         className="relative pt-32 pb-24 px-6 overflow-hidden flex items-center justify-center text-center"
-        style={{ background: "linear-gradient(160deg, #060F0C 0%, #0C3B2E 55%, #0F2D22 100%)", minHeight: "55vh" }}>
+        style={{ background: "linear-gradient(160deg, #432F4F 0%, #432F4F 50%, #432F4F 100%)", minHeight: "55vh" }}>
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[500px] rounded-full pointer-events-none"
           style={{ background: "radial-gradient(circle, rgba(201,164,53,0.1) 0%, transparent 70%)" }} />
@@ -106,7 +106,7 @@ export default function AboutPage() {
           <div className="order-1 lg:order-2">
             <motion.p
               initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-              className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+              className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
               My Story
             </motion.p>
             <motion.h2
@@ -116,7 +116,7 @@ export default function AboutPage() {
             </motion.h2>
             <motion.div
               initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
-              className="mb-6" style={{ color: "var(--gold)" }}>
+              className="mb-6" style={{ color: "var(--green-light)" }}>
               <DiamondLineDoodle width={160} />
             </motion.div>
             {[
@@ -161,7 +161,7 @@ export default function AboutPage() {
           <div className="text-center mb-14">
             <motion.p
               initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-              className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+              className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
               My Philosophy
             </motion.p>
             <motion.h2
@@ -171,7 +171,7 @@ export default function AboutPage() {
             </motion.h2>
             <motion.div
               initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
-              className="flex justify-center" style={{ color: "var(--gold)" }}>
+              className="flex justify-center" style={{ color: "var(--green-light)" }}>
               <DiamondLineDoodle width={160} />
             </motion.div>
           </div>

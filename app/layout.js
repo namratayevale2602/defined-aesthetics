@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en" className={`${cormorant.variable} ${jost.variable} scroll-smooth`}>
+    <html lang="en" className={`${cormorant.variable} ${jost.variable} scroll-smooth`} suppressHydrationWarning >
       <head>
         <meta name="geo.region" content="IN-MH" />
         <meta name="geo.placename" content="Nashik" />

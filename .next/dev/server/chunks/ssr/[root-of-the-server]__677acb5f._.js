@@ -1364,10 +1364,12 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$FloralDoodle$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/doodles/FloralDoodle.jsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Logo$2f$LogoSVG$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Logo/LogoSVG.jsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/data.js [app-rsc] (ecmascript)");
+;
 ;
 ;
 ;
@@ -1379,37 +1381,37 @@ function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "relative overflow-hidden",
         style: {
-            backgroundColor: "#0C3B2E"
+            backgroundColor: "#432F4F"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute top-8 right-8 opacity-10 pointer-events-none select-none",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$FloralDoodle$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                     size: 160,
-                    className: "text-[#C9A435]"
+                    className: "text-[#D8D1BE]"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer/Footer.jsx",
-                    lineNumber: 17,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Footer/Footer.jsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute bottom-16 left-4 opacity-5 pointer-events-none select-none",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$FloralDoodle$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                     size: 120,
-                    className: "text-[#E8D5A3]"
+                    className: "text-[#e6e2da]"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer/Footer.jsx",
-                    lineNumber: 20,
+                    lineNumber: 21,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Footer/Footer.jsx",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1423,42 +1425,45 @@ function Footer() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/",
-                                        className: "inline-block mb-5",
+                                        className: "flex items-center flex-shrink-0",
                                         "aria-label": "Defined Aesthetics by Mayuri — Home",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Logo$2f$LogoSVG$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                            layout: "stacked",
-                                            variant: "light",
-                                            width: 200
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/logo/definedaestheticwhite.png",
+                                            alt: "Defined Aesthetics Logo",
+                                            width: 180,
+                                            height: 50,
+                                            priority: true,
+                                            className: "h-auto w-auto max-h-50"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer/Footer.jsx",
-                                            lineNumber: 28,
-                                            columnNumber: 15
+                                            lineNumber: 33,
+                                            columnNumber: 13
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 27,
+                                        lineNumber: 28,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[#E8D5A3]/70 text-sm leading-relaxed mb-5",
+                                        className: "text-[#e6e2da]/70 text-sm leading-relaxed mb-5",
                                         style: {
                                             fontFamily: "var(--font-jost), sans-serif"
                                         },
                                         children: "Nashik's premier permanent makeup studio. Expert microblading, ombre brows, lip blush, scalp micropigmentation — each treatment crafted to your unique beauty."
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 30,
+                                        lineNumber: 42,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[#C9A435] text-sm italic mb-5",
+                                        className: "text-[#D8D1BE] text-sm italic mb-5",
                                         style: {
                                             fontFamily: "var(--font-cormorant), serif"
                                         },
                                         children: "“Defined Beauty. Lasting Confidence.”"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 36,
+                                        lineNumber: 48,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1468,61 +1473,61 @@ function Footer() {
                                                 href: "https://www.instagram.com/_defined_aesthetics_by_mayuri",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
-                                                className: "w-9 h-9 flex items-center justify-center rounded-full bg-white/10 hover:bg-[#C9A435] text-[#E8D5A3] hover:text-[#0C3B2E] transition-all duration-200",
+                                                className: "w-9 h-9 flex items-center justify-center rounded-full bg-white/10 hover:bg-[#D8D1BE] text-[#e6e2da] hover:text-[#0C3B2E] transition-all duration-200",
                                                 "aria-label": "Instagram",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaInstagram"], {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 62,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                                lineNumber: 43,
+                                                lineNumber: 55,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "https://wa.me/918422926464",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
-                                                className: "w-9 h-9 flex items-center justify-center rounded-full bg-white/10 hover:bg-[#25D366] text-[#E8D5A3] hover:text-white transition-all duration-200",
+                                                className: "w-9 h-9 flex items-center justify-center rounded-full bg-white/10 hover:bg-[#25D366] text-[#e6e2da] hover:text-white transition-all duration-200",
                                                 "aria-label": "WhatsApp",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaWhatsapp"], {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 59,
+                                                    lineNumber: 71,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                                lineNumber: 52,
+                                                lineNumber: 64,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 42,
+                                        lineNumber: 54,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                lineNumber: 26,
+                                lineNumber: 27,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-[#C9A435] text-base font-semibold mb-5 pb-3 border-b border-[#C9A435]/20",
+                                        className: "text-[#D8D1BE] text-base font-semibold mb-5 pb-3 border-b border-[#D8D1BE]/20",
                                         style: {
                                             fontFamily: "var(--font-cormorant), serif"
                                         },
                                         children: "Our Services"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 66,
+                                        lineNumber: 78,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1530,53 +1535,53 @@ function Footer() {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["services"].map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: `/services/${service.slug}`,
-                                                    className: "text-[#E8D5A3]/75 hover:text-[#C9A435] text-sm transition-colors duration-200 flex items-center gap-2",
+                                                    className: "text-[#e6e2da]/75 hover:text-[#D8D1BE] text-sm transition-colors duration-200 flex items-center gap-2",
                                                     style: {
                                                         fontFamily: "var(--font-jost), sans-serif"
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-[#C9A435]/50 text-xs",
+                                                            className: "text-[#D8D1BE]/50 text-xs",
                                                             children: "✦"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer/Footer.jsx",
-                                                            lineNumber: 80,
+                                                            lineNumber: 92,
                                                             columnNumber: 21
                                                         }, this),
                                                         service.title
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 87,
                                                     columnNumber: 19
                                                 }, this)
                                             }, service.slug, false, {
                                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                                lineNumber: 74,
+                                                lineNumber: 86,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 72,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                lineNumber: 65,
+                                lineNumber: 77,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-[#C9A435] text-base font-semibold mb-5 pb-3 border-b border-[#C9A435]/20",
+                                        className: "text-[#D8D1BE] text-base font-semibold mb-5 pb-3 border-b border-[#D8D1BE]/20",
                                         style: {
                                             fontFamily: "var(--font-cormorant), serif"
                                         },
                                         children: "Quick Links"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 90,
+                                        lineNumber: 102,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1609,53 +1614,53 @@ function Footer() {
                                         ].map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                                     href: link.href,
-                                                    className: "text-[#E8D5A3]/75 hover:text-[#C9A435] text-sm transition-colors duration-200 flex items-center gap-2",
+                                                    className: "text-[#e6e2da]/75 hover:text-[#D8D1BE] text-sm transition-colors duration-200 flex items-center gap-2",
                                                     style: {
                                                         fontFamily: "var(--font-jost), sans-serif"
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-[#C9A435]/50 text-xs",
+                                                            className: "text-[#D8D1BE]/50 text-xs",
                                                             children: "→"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer/Footer.jsx",
-                                                            lineNumber: 111,
+                                                            lineNumber: 123,
                                                             columnNumber: 21
                                                         }, this),
                                                         link.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 106,
+                                                    lineNumber: 118,
                                                     columnNumber: 19
                                                 }, this)
                                             }, link.href, false, {
                                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                                lineNumber: 105,
+                                                lineNumber: 117,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 96,
+                                        lineNumber: 108,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                lineNumber: 89,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-[#C9A435] text-base font-semibold mb-5 pb-3 border-b border-[#C9A435]/20",
+                                        className: "text-[#D8D1BE] text-base font-semibold mb-5 pb-3 border-b border-[#D8D1BE]/20",
                                         style: {
                                             fontFamily: "var(--font-cormorant), serif"
                                         },
                                         children: "Get in Touch"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 121,
+                                        lineNumber: 133,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1664,84 +1669,84 @@ function Footer() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                     href: "tel:+918422926464",
-                                                    className: "flex items-start gap-3 text-[#E8D5A3]/75 hover:text-[#C9A435] text-sm transition-colors",
+                                                    className: "flex items-start gap-3 text-[#e6e2da]/75 hover:text-[#D8D1BE] text-sm transition-colors",
                                                     style: {
                                                         fontFamily: "var(--font-jost), sans-serif"
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaPhone"], {
-                                                            className: "mt-0.5 text-[#C9A435]/70 flex-shrink-0",
+                                                            className: "mt-0.5 text-[#D8D1BE]/70 flex-shrink-0",
                                                             size: 13
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer/Footer.jsx",
-                                                            lineNumber: 134,
+                                                            lineNumber: 146,
                                                             columnNumber: 19
                                                         }, this),
                                                         "+91 8422926464"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 129,
+                                                    lineNumber: 141,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                                lineNumber: 128,
+                                                lineNumber: 140,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                     href: "mailto:definedaestheticsbymayuri@gmail.com",
-                                                    className: "flex items-start gap-3 text-[#E8D5A3]/75 hover:text-[#C9A435] text-sm transition-colors break-all",
+                                                    className: "flex items-start gap-3 text-[#e6e2da]/75 hover:text-[#D8D1BE] text-sm transition-colors break-all",
                                                     style: {
                                                         fontFamily: "var(--font-jost), sans-serif"
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaEnvelope"], {
-                                                            className: "mt-0.5 text-[#C9A435]/70 flex-shrink-0",
+                                                            className: "mt-0.5 text-[#D8D1BE]/70 flex-shrink-0",
                                                             size: 13
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer/Footer.jsx",
-                                                            lineNumber: 144,
+                                                            lineNumber: 156,
                                                             columnNumber: 19
                                                         }, this),
                                                         "definedaestheticsbymayuri@gmail.com"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 139,
+                                                    lineNumber: 151,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                                lineNumber: 138,
+                                                lineNumber: 150,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "flex items-start gap-3 text-[#E8D5A3]/75 text-sm",
+                                                    className: "flex items-start gap-3 text-[#e6e2da]/75 text-sm",
                                                     style: {
                                                         fontFamily: "var(--font-jost), sans-serif"
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaMapMarkerAlt"], {
-                                                            className: "mt-0.5 text-[#C9A435]/70 flex-shrink-0",
+                                                            className: "mt-0.5 text-[#D8D1BE]/70 flex-shrink-0",
                                                             size: 13
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer/Footer.jsx",
-                                                            lineNumber: 153,
+                                                            lineNumber: 165,
                                                             columnNumber: 19
                                                         }, this),
                                                         "Nashik, Maharashtra, India"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 161,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                                lineNumber: 148,
+                                                lineNumber: 160,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1749,35 +1754,35 @@ function Footer() {
                                                     href: "https://www.instagram.com/_defined_aesthetics_by_mayuri",
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",
-                                                    className: "flex items-start gap-3 text-[#E8D5A3]/75 hover:text-[#C9A435] text-sm transition-colors",
+                                                    className: "flex items-start gap-3 text-[#e6e2da]/75 hover:text-[#D8D1BE] text-sm transition-colors",
                                                     style: {
                                                         fontFamily: "var(--font-jost), sans-serif"
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaInstagram"], {
-                                                            className: "mt-0.5 text-[#C9A435]/70 flex-shrink-0",
+                                                            className: "mt-0.5 text-[#D8D1BE]/70 flex-shrink-0",
                                                             size: 13
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer/Footer.jsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 177,
                                                             columnNumber: 19
                                                         }, this),
                                                         "@_defined_aesthetics_by_mayuri"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 170,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                                lineNumber: 157,
+                                                lineNumber: 169,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 127,
+                                        lineNumber: 139,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1786,7 +1791,7 @@ function Footer() {
                                             href: "https://wa.me/918422926464",
                                             target: "_blank",
                                             rel: "noopener noreferrer",
-                                            className: "inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#C9A435] text-[#0C3B2E] text-sm font-semibold hover:bg-[#E8D5A3] transition-colors duration-200",
+                                            className: "inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#D8D1BE] text-[#0C3B2E] text-sm font-semibold hover:bg-[#e6e2da] transition-colors duration-200",
                                             style: {
                                                 fontFamily: "var(--font-jost), sans-serif"
                                             },
@@ -1795,38 +1800,38 @@ function Footer() {
                                                     size: 15
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer/Footer.jsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 190,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Book on WhatsApp"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer/Footer.jsx",
-                                            lineNumber: 171,
+                                            lineNumber: 183,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer/Footer.jsx",
-                                        lineNumber: 170,
+                                        lineNumber: 182,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                lineNumber: 120,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer/Footer.jsx",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-12 pt-6 border-t border-[#C9A435]/15 flex flex-col sm:flex-row items-center justify-between gap-3",
+                        className: "mt-12 pt-6 border-t border-[#D8D1BE]/15 flex flex-col sm:flex-row items-center justify-between gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[#E8D5A3]/50 text-xs text-center sm:text-left",
+                                className: "text-[#e6e2da]/50 text-xs text-center sm:text-left",
                                 style: {
                                     fontFamily: "var(--font-jost), sans-serif"
                                 },
@@ -1837,36 +1842,36 @@ function Footer() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                lineNumber: 187,
+                                lineNumber: 199,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[#E8D5A3]/40 text-xs",
+                                className: "text-[#e6e2da]/40 text-xs",
                                 style: {
                                     fontFamily: "var(--font-jost), sans-serif"
                                 },
                                 children: "Permanent Makeup Studio · Nashik, Maharashtra"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer/Footer.jsx",
-                                lineNumber: 193,
+                                lineNumber: 205,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer/Footer.jsx",
-                        lineNumber: 186,
+                        lineNumber: 198,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer/Footer.jsx",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Footer/Footer.jsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
@@ -2465,6 +2470,7 @@ function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
         className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$cormorant_garamond_44fb4f9$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__cormorant$3e$__["cormorant"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$jost_6a8b15b9$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__jost$3e$__["jost"].variable} scroll-smooth`,
+        suppressHydrationWarning: true,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
                 children: [

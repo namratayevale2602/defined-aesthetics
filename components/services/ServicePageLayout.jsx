@@ -47,7 +47,7 @@ export default function ServicePageLayout({ service }) {
       {/* Hero */}
       <section
         className="relative pt-32 pb-20 px-6 overflow-hidden flex flex-col items-center justify-center text-center"
-        style={{ background: "linear-gradient(160deg, #060F0C 0%, #0C3B2E 55%, #0F2D22 100%)", minHeight: "55vh" }}>
+        style={{ background: "linear-gradient(160deg, #432F4F 0%, #432F4F 50%, #432F4F 100%)", minHeight: "55vh" }}>
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] rounded-full pointer-events-none"
           style={{ background: "radial-gradient(circle, rgba(201,164,53,0.10) 0%, transparent 70%)" }} />
@@ -121,7 +121,7 @@ export default function ServicePageLayout({ service }) {
         <div className="max-w-4xl mx-auto text-center">
           <motion.p
             initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-            className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+            className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
             About This Treatment
           </motion.p>
           <motion.p
@@ -138,7 +138,7 @@ export default function ServicePageLayout({ service }) {
           <div className="text-center mb-14">
             <motion.p
               initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-              className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+              className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
               Techniques Available
             </motion.p>
             <motion.h2
@@ -148,7 +148,7 @@ export default function ServicePageLayout({ service }) {
             </motion.h2>
             <motion.div
               initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
-              className="flex justify-center" style={{ color: "var(--gold)" }}>
+              className="flex justify-center" style={{ color: "var(--green-light)" }}>
               <DiamondLineDoodle width={160} />
             </motion.div>
           </div>
@@ -241,7 +241,7 @@ export default function ServicePageLayout({ service }) {
             <div className="text-center mb-12">
               <motion.p
                 initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-                className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+                className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
                 Questions & Answers
               </motion.p>
               <motion.h2
@@ -251,7 +251,7 @@ export default function ServicePageLayout({ service }) {
               </motion.h2>
               <motion.div
                 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
-                className="flex justify-center" style={{ color: "var(--gold)" }}>
+                className="flex justify-center" style={{ color: "var(--green-light)" }}>
                 <DiamondLineDoodle width={160} />
               </motion.div>
             </div>
@@ -267,7 +267,7 @@ export default function ServicePageLayout({ service }) {
       {/* CTA */}
       <section
         className="relative py-20 px-6 overflow-hidden text-center"
-        style={{ background: "linear-gradient(135deg, #060F0C 0%, #0C3B2E 100%)" }}>
+        style={{ background: "linear-gradient(135deg, #432F4F 0%, #432F4F 100%)" }}>
         <div
           className="absolute inset-0 pointer-events-none"
           style={{ background: "radial-gradient(circle at 50% 50%, rgba(201,164,53,0.08) 0%, transparent 70%)" }} />

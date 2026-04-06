@@ -20,13 +20,13 @@ export default function InstagramCTA() {
       <div className="max-w-3xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-          <p className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--gold)" }}>
+          <p className="font-jost text-xs tracking-[0.3em] uppercase mb-3" style={{ color: "var(--green-light)" }}>
             Follow the Journey
           </p>
           <h2 className="font-cormorant font-semibold mb-4" style={{ color: "var(--green)", fontSize: "clamp(2rem, 4vw, 3rem)" }}>
             See Our Latest Work
           </h2>
-          <div className="flex justify-center mb-6" style={{ color: "var(--gold)", opacity: 0.6 }}>
+          <div className="flex justify-center mb-6" style={{ color: "var(--green-light)", opacity: 0.6 }}>
             <BrowlineDoodle width={180} />
           </div>
           <p className="font-jost font-light text-sm leading-relaxed mb-8 max-w-lg mx-auto" style={{ color: "#666" }}>

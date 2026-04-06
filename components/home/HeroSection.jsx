@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <section
       className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
-      style={{ background: "linear-gradient(160deg, #060F0C 0%, #0C3B2E 50%, #0F2D22 100%)" }}
+      style={{ background: "linear-gradient(160deg, #432F4F 0%, #432F4F 50%, #432F4F 100%)" }}
     >
       {/* Radial glow behind logo */}
       <div
@@ -51,7 +51,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-3xl mx-auto">
         {/* Logo */}
-        <motion.div
+        {/* <motion.div
           variants={fadeUp}
           initial="hidden"
           animate="show"
@@ -59,7 +59,7 @@ export default function HeroSection() {
           className="mb-8"
         >
           <LogoSVG layout="stacked" variant="light" width={270} />
-        </motion.div>
+        </motion.div> */}
 
         {/* BrowLine decoration */}
         <motion.div
