@@ -32,7 +32,7 @@ const services = [
     title: "Scalp Micropigmentation",
     techniques: "Hairline Restoration · Density · Full Scalp",
     desc: "A non-surgical permanent solution that recreates the look of hair follicles, restoring confidence for men and women.",
-    image: "/images/what_we_do.jpeg",
+    image: "/images/scalpmicropigmentation.webp",
     imageAlt: "Scalp micropigmentation SMP treatment — Defined MD Aesthetics Nashik",
   },
   {
@@ -41,7 +41,7 @@ const services = [
     title: "Beauty Spot Making",
     techniques: "Classic Placement · Custom Position",
     desc: "A timeless, precisely placed beauty mark that adds classic elegance and a signature touch to your natural features.",
-    image: "/images/what_we_do_2.jpeg",
+    image: "/images/beautyspotmaking.jpg",
     imageAlt: "Permanent beauty spot making — Defined MD Aesthetics by Mayuri Londhe",
   },
 ];
@@ -112,7 +112,7 @@ export default function ServicesSection() {
                 />
                 {/* Gradient overlay */}
                 <div className="absolute inset-0"
-                  style={{ background: "linear-gradient(to top, rgba(12,59,46,0.85) 0%, rgba(12,59,46,0.2) 60%, transparent 100%)" }} />
+                  style={{ background: "linear-gradient(to top, rgba(67, 47, 78) 0%, rgba(12,59,46,0.2) 60%, transparent 100%)" }} />
                 {/* Icon + title on image */}
                 <div className="absolute bottom-0 left-0 right-0 px-5 pb-4 pt-2">
                   <span className="text-2xl mb-1 block" style={{ color: "var(--gold)" }}>{svc.icon}</span>

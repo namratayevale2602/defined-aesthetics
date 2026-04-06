@@ -57,11 +57,24 @@ export default function AboutPage() {
             style={{ color: "var(--gold)", fontSize: "clamp(2.8rem, 6vw, 4.5rem)" }}>
             About Mayuri
           </motion.h1>
+
           <motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.6, delay: 0.3 }}
+  className="flex justify-center mb-4 opacity-80"
+>
+  <img
+    src="/images/face.png"
+    alt="Defined Aesthetics Logo"
+    className="w-[50px] md:w-[100px] object-contain"
+  />
+</motion.div>
+          {/* <motion.div
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.3 }}
             className="flex justify-center mb-4 opacity-50" style={{ color: "var(--gold)" }}>
             <BrowlineDoodle width={180} />
-          </motion.div>
+          </motion.div> */}
           <motion.p
             initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.4 }}
             className="font-cormorant italic text-xl md:text-2xl" style={{ color: "var(--gold-light)" }}>
@@ -79,7 +92,7 @@ export default function AboutPage() {
             className="relative order-2 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl" style={{ border: "2px solid rgba(201,164,53,0.4)" }}>
               <Image
-                src="/images/what_we_do.jpeg"
+                src="/images/definedcard.png"
                 alt="Mayuri Londhe — Permanent Makeup Artist Nashik, Defined MD Aesthetics"
                 width={600}
                 height={480}

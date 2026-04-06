@@ -56,7 +56,7 @@ export default function Navbar() {
       aria-label="Main navigation"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-24 md:h-22">
           {/* Logo */}
           <Link
             href="/"
@@ -69,7 +69,7 @@ export default function Navbar() {
               width={180}
               height={50}
               priority
-              className="h-auto w-auto max-h-50"
+              className="h-auto w-auto max-h-50 md:max-h-50"
             />
           </Link>
 
@@ -106,7 +106,7 @@ export default function Navbar() {
                           key={sub.href}
                           href={sub.href}
                           className={`block px-5 py-3 text-sm text-[#1A1A1A] hover:bg-[#C68BAA] hover:text-[#432F4F] transition-all duration-200 border-b border-[#FAF7F2] last:border-0 ${
-                            pathname === sub.href ? "bg-[#0C3B2E]/5 text-[#432F4F]" : ""
+                            pathname === sub.href ? "bg-[#432F4F]/5 text-[#432F4F]" : ""
                           }`}
                           style={{ fontFamily: "var(--font-jost), sans-serif" }}
                         >
@@ -167,14 +167,14 @@ export default function Navbar() {
       <div
         className={`lg:hidden transition-all duration-300 overflow-hidden ${
           mobileOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
-        } bg-[#0C3B2E] border-t border-[#C9A435]/20`}
+        } bg-[#432F4F] border-t border-[#C9A435]/20`}
       >
         <div className="px-4 py-4 space-y-1">
           {navItems.map((item) =>
             item.dropdown ? (
               <div key={item.label}>
                 <button
-                  className="flex items-center justify-between w-full px-4 py-3 text-[#E8D5A3] text-sm font-medium rounded-xl hover:bg-white/5 transition-colors"
+                  className="flex items-center justify-between w-full px-4 py-3 text-[#D8D1BE] text-sm font-medium rounded-xl hover:bg-white/5 transition-colors"
                   style={{ fontFamily: "var(--font-jost), sans-serif" }}
                   onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
                 >
@@ -190,7 +190,7 @@ export default function Navbar() {
                       <Link
                         key={sub.href}
                         href={sub.href}
-                        className="block px-4 py-2.5 text-[#C9A435] text-sm rounded-xl hover:bg-white/5 transition-colors"
+                        className="block px-4 py-2.5 text-[#D8D1BE] text-sm rounded-xl hover:bg-white/5 transition-colors"
                         style={{ fontFamily: "var(--font-jost), sans-serif" }}
                       >
                         {sub.label}
@@ -205,8 +205,8 @@ export default function Navbar() {
                 href={item.href}
                 className={`block px-4 py-3 text-sm font-medium rounded-xl transition-colors ${
                   pathname === item.href
-                    ? "text-[#C9A435] bg-white/5"
-                    : "text-[#E8D5A3] hover:bg-white/5"
+                    ? "text-[#D8D1BE] bg-white/5"
+                    : "text-[#D8D1BE] hover:bg-white/5"
                 }`}
                 style={{ fontFamily: "var(--font-jost), sans-serif" }}
               >
@@ -219,14 +219,14 @@ export default function Navbar() {
               href="https://wa.me/918422926464"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-[#25D366]/20 text-[#25D366] text-sm font-medium flex-1 justify-center"
+              className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-[#a3d0b2] text-[#127e37] text-sm font-medium flex-1 justify-center"
             >
               <FaWhatsapp size={16} />
               WhatsApp
             </a>
             <Link
               href="/contact"
-              className="flex-1 text-center px-4 py-2.5 rounded-full bg-[#C9A435] text-[#0C3B2E] text-sm font-semibold"
+              className="flex-1 text-center px-4 py-2.5 rounded-full bg-[#C68BAA] text-[#432F4F] text-sm font-semibold"
               style={{ fontFamily: "var(--font-jost), sans-serif" }}
             >
               Book Now

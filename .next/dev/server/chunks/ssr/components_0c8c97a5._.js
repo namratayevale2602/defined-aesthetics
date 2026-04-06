@@ -744,29 +744,30 @@ function ServicePageLayout({ service }) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
-                                    opacity: 0
+                                    opacity: 0,
+                                    scale: 0.8
                                 },
                                 animate: {
-                                    opacity: 1
+                                    opacity: 1,
+                                    scale: 1
                                 },
                                 transition: {
                                     duration: 0.6,
                                     delay: 0.3
                                 },
-                                className: "flex justify-center mb-5 opacity-50",
-                                style: {
-                                    color: "var(--gold)"
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$BrowlineDoodle$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    width: 180
+                                className: "flex justify-center mb-4 opacity-80",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/images/face.png",
+                                    alt: "Defined Aesthetics Logo",
+                                    className: "w-[50px] md:w-[100px] object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 90,
-                                    columnNumber: 13
+                                    lineNumber: 99,
+                                    columnNumber: 3
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 87,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -789,7 +790,7 @@ function ServicePageLayout({ service }) {
                                 children: service.tagline
                             }, void 0, false, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 93,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -821,14 +822,14 @@ function ServicePageLayout({ service }) {
                                                 size: 17
                                             }, void 0, false, {
                                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                lineNumber: 107,
+                                                lineNumber: 120,
                                                 columnNumber: 15
                                             }, this),
                                             " Book This Service"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 115,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -844,19 +845,19 @@ function ServicePageLayout({ service }) {
                                                 size: 15
                                             }, void 0, false, {
                                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                lineNumber: 113,
+                                                lineNumber: 126,
                                                 columnNumber: 28
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                        lineNumber: 109,
+                                        lineNumber: 122,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 99,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -901,7 +902,7 @@ function ServicePageLayout({ service }) {
                             children: "About This Treatment"
                         }, void 0, false, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 122,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -927,18 +928,18 @@ function ServicePageLayout({ service }) {
                             children: service.description
                         }, void 0, false, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 127,
+                            lineNumber: 140,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                    lineNumber: 121,
+                    lineNumber: 134,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                lineNumber: 120,
+                lineNumber: 133,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -974,7 +975,7 @@ function ServicePageLayout({ service }) {
                                     children: "Techniques Available"
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 139,
+                                    lineNumber: 152,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1001,7 +1002,7 @@ function ServicePageLayout({ service }) {
                                     children: "Which Technique Is Right for You?"
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 144,
+                                    lineNumber: 157,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1026,18 +1027,18 @@ function ServicePageLayout({ service }) {
                                         width: 160
                                     }, void 0, false, {
                                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                        lineNumber: 152,
+                                        lineNumber: 165,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 149,
+                                    lineNumber: 162,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 138,
+                            lineNumber: 151,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1076,12 +1077,12 @@ function ServicePageLayout({ service }) {
                                                 children: tech.name
                                             }, void 0, false, {
                                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                lineNumber: 166,
+                                                lineNumber: 179,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                            lineNumber: 165,
+                                            lineNumber: 178,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1095,7 +1096,7 @@ function ServicePageLayout({ service }) {
                                                     children: tech.desc
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                    lineNumber: 172,
+                                                    lineNumber: 185,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1111,7 +1112,7 @@ function ServicePageLayout({ service }) {
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                                    lineNumber: 177,
+                                                                    lineNumber: 190,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1122,13 +1123,13 @@ function ServicePageLayout({ service }) {
                                                                     children: tech.duration
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                                    lineNumber: 178,
+                                                                    lineNumber: 191,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                            lineNumber: 176,
+                                                            lineNumber: 189,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1141,7 +1142,7 @@ function ServicePageLayout({ service }) {
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                                    lineNumber: 181,
+                                                                    lineNumber: 194,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1155,25 +1156,25 @@ function ServicePageLayout({ service }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                                    lineNumber: 182,
+                                                                    lineNumber: 195,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                            lineNumber: 180,
+                                                            lineNumber: 193,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 188,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                            lineNumber: 171,
+                                            lineNumber: 184,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1183,29 +1184,29 @@ function ServicePageLayout({ service }) {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                            lineNumber: 187,
+                                            lineNumber: 200,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, tech.name, true, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 158,
+                                    lineNumber: 171,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 156,
+                            lineNumber: 169,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                    lineNumber: 137,
+                    lineNumber: 150,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                lineNumber: 136,
+                lineNumber: 149,
                 columnNumber: 7
             }, this),
             service.image && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1241,7 +1242,7 @@ function ServicePageLayout({ service }) {
                                     children: "Real Results"
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 200,
+                                    lineNumber: 213,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1268,13 +1269,13 @@ function ServicePageLayout({ service }) {
                                     children: "Before & After"
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 205,
+                                    lineNumber: 218,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 199,
+                            lineNumber: 212,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1304,12 +1305,12 @@ function ServicePageLayout({ service }) {
                                 className: "w-full h-auto object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 215,
+                                lineNumber: 228,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 211,
+                            lineNumber: 224,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1340,29 +1341,29 @@ function ServicePageLayout({ service }) {
                                         size: 15
                                     }, void 0, false, {
                                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                        lineNumber: 230,
+                                        lineNumber: 243,
                                         columnNumber: 35
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 226,
+                                lineNumber: 239,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 223,
+                            lineNumber: 236,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                    lineNumber: 198,
+                    lineNumber: 211,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                lineNumber: 197,
+                lineNumber: 210,
                 columnNumber: 9
             }, this),
             service.faqs && service.faqs.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1398,7 +1399,7 @@ function ServicePageLayout({ service }) {
                                     children: "Questions & Answers"
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 242,
+                                    lineNumber: 255,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1425,7 +1426,7 @@ function ServicePageLayout({ service }) {
                                     children: "Frequently Asked Questions"
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 247,
+                                    lineNumber: 260,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1450,18 +1451,18 @@ function ServicePageLayout({ service }) {
                                         width: 160
                                     }, void 0, false, {
                                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                        lineNumber: 255,
+                                        lineNumber: 268,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 252,
+                                    lineNumber: 265,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 241,
+                            lineNumber: 254,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1474,23 +1475,23 @@ function ServicePageLayout({ service }) {
                                     index: i
                                 }, i, false, {
                                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                    lineNumber: 260,
+                                    lineNumber: 273,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/services/ServicePageLayout.jsx",
-                            lineNumber: 258,
+                            lineNumber: 271,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/services/ServicePageLayout.jsx",
-                    lineNumber: 240,
+                    lineNumber: 253,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                lineNumber: 239,
+                lineNumber: 252,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1506,7 +1507,7 @@ function ServicePageLayout({ service }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                        lineNumber: 271,
+                        lineNumber: 284,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1534,7 +1535,7 @@ function ServicePageLayout({ service }) {
                                 children: "Ready to Transform?"
                             }, void 0, false, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 275,
+                                lineNumber: 288,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1565,7 +1566,7 @@ function ServicePageLayout({ service }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 280,
+                                lineNumber: 293,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1591,7 +1592,7 @@ function ServicePageLayout({ service }) {
                                 children: "Every appointment begins with a consultation and design session. Message Mayuri on WhatsApp to book yours today."
                             }, void 0, false, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 285,
+                                lineNumber: 298,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1626,14 +1627,14 @@ function ServicePageLayout({ service }) {
                                                 size: 17
                                             }, void 0, false, {
                                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                lineNumber: 298,
+                                                lineNumber: 311,
                                                 columnNumber: 15
                                             }, this),
                                             " Book on WhatsApp"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 306,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1649,31 +1650,31 @@ function ServicePageLayout({ service }) {
                                                 size: 15
                                             }, void 0, false, {
                                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                                lineNumber: 304,
+                                                lineNumber: 317,
                                                 columnNumber: 28
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                        lineNumber: 300,
+                                        lineNumber: 313,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                                lineNumber: 290,
+                                lineNumber: 303,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/services/ServicePageLayout.jsx",
-                        lineNumber: 274,
+                        lineNumber: 287,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/services/ServicePageLayout.jsx",
-                lineNumber: 268,
+                lineNumber: 281,
                 columnNumber: 7
             }, this)
         ]

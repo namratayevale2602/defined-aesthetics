@@ -776,29 +776,30 @@ function BlogListClient() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
-                                    opacity: 0
+                                    opacity: 0,
+                                    scale: 0.8
                                 },
                                 animate: {
-                                    opacity: 1
+                                    opacity: 1,
+                                    scale: 1
                                 },
                                 transition: {
                                     duration: 0.6,
                                     delay: 0.3
                                 },
-                                className: "flex justify-center mb-5 opacity-50",
-                                style: {
-                                    color: "var(--gold)"
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$BrowlineDoodle$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    width: 180
+                                className: "flex justify-center mb-4 opacity-80",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/images/face.png",
+                                    alt: "Defined Aesthetics Logo",
+                                    className: "w-[50px] md:w-[100px] object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                    lineNumber: 60,
-                                    columnNumber: 13
+                                    lineNumber: 68,
+                                    columnNumber: 3
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                                lineNumber: 57,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -821,7 +822,7 @@ function BlogListClient() {
                                 children: "Expert tips, aftercare guides, and beauty insights from Mayuri Londhe at Defined MD Aesthetics."
                             }, void 0, false, {
                                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                                lineNumber: 62,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -866,7 +867,7 @@ function BlogListClient() {
                             children: "Featured Article"
                         }, void 0, false, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 73,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -903,12 +904,12 @@ function BlogListClient() {
                                                 size: 120
                                             }, void 0, false, {
                                                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                lineNumber: 85,
+                                                lineNumber: 97,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                            lineNumber: 84,
+                                            lineNumber: 96,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -923,7 +924,7 @@ function BlogListClient() {
                                                     children: featured.category
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 100,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -936,7 +937,7 @@ function BlogListClient() {
                                                             size: 12
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 106,
                                                             columnNumber: 21
                                                         }, this),
                                                         " ",
@@ -945,7 +946,7 @@ function BlogListClient() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 105,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -958,7 +959,7 @@ function BlogListClient() {
                                                             size: 12
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                            lineNumber: 97,
+                                                            lineNumber: 109,
                                                             columnNumber: 21
                                                         }, this),
                                                         " ",
@@ -966,13 +967,13 @@ function BlogListClient() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 108,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                            lineNumber: 87,
+                                            lineNumber: 99,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -985,7 +986,7 @@ function BlogListClient() {
                                             children: featured.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                            lineNumber: 100,
+                                            lineNumber: 112,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -996,7 +997,7 @@ function BlogListClient() {
                                             children: featured.excerpt
                                         }, void 0, false, {
                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 117,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1010,40 +1011,40 @@ function BlogListClient() {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 122,
                                                     columnNumber: 32
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                            lineNumber: 108,
+                                            lineNumber: 120,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                    lineNumber: 81,
+                                    lineNumber: 93,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                                lineNumber: 80,
+                                lineNumber: 92,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 78,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                    lineNumber: 72,
+                    lineNumber: 84,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                lineNumber: 71,
+                lineNumber: 83,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1079,7 +1080,7 @@ function BlogListClient() {
                                     children: "More Articles"
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                    lineNumber: 122,
+                                    lineNumber: 134,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1109,18 +1110,18 @@ function BlogListClient() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/blog/BlogListClient.jsx",
-                                        lineNumber: 130,
+                                        lineNumber: 142,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                    lineNumber: 127,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 121,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1164,7 +1165,7 @@ function BlogListClient() {
                                                             children: post.category
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 158,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1177,7 +1178,7 @@ function BlogListClient() {
                                                                     size: 11
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                                    lineNumber: 152,
+                                                                    lineNumber: 164,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 " ",
@@ -1186,13 +1187,13 @@ function BlogListClient() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                            lineNumber: 151,
+                                                            lineNumber: 163,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                    lineNumber: 145,
+                                                    lineNumber: 157,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1205,7 +1206,7 @@ function BlogListClient() {
                                                     children: post.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                    lineNumber: 155,
+                                                    lineNumber: 167,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1216,7 +1217,7 @@ function BlogListClient() {
                                                     children: post.excerpt
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 172,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1232,7 +1233,7 @@ function BlogListClient() {
                                                                     size: 11
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                                    lineNumber: 165,
+                                                                    lineNumber: 177,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 " ",
@@ -1240,7 +1241,7 @@ function BlogListClient() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                            lineNumber: 164,
+                                                            lineNumber: 176,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1254,52 +1255,52 @@ function BlogListClient() {
                                                                     size: 12
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                                    lineNumber: 169,
+                                                                    lineNumber: 181,
                                                                     columnNumber: 32
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                            lineNumber: 167,
+                                                            lineNumber: 179,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                                    lineNumber: 163,
+                                                    lineNumber: 175,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                                            lineNumber: 142,
+                                            lineNumber: 154,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/blog/BlogListClient.jsx",
-                                        lineNumber: 141,
+                                        lineNumber: 153,
                                         columnNumber: 19
                                     }, this)
                                 }, post.slug, false, {
                                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                                    lineNumber: 137,
+                                    lineNumber: 149,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 133,
+                            lineNumber: 145,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                    lineNumber: 120,
+                    lineNumber: 132,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                lineNumber: 119,
+                lineNumber: 131,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1332,7 +1333,7 @@ function BlogListClient() {
                             children: "Ready to Transform?"
                         }, void 0, false, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 184,
+                            lineNumber: 196,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1359,7 +1360,7 @@ function BlogListClient() {
                             children: "Questions? Ask Mayuri Directly."
                         }, void 0, false, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 189,
+                            lineNumber: 201,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1384,12 +1385,12 @@ function BlogListClient() {
                                 width: 160
                             }, void 0, false, {
                                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                                lineNumber: 197,
+                                lineNumber: 209,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 194,
+                            lineNumber: 206,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1415,7 +1416,7 @@ function BlogListClient() {
                             children: "Have a question about a treatment, your skin type, or the healing process? Message Mayuri directly on WhatsApp for personalised guidance."
                         }, void 0, false, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 199,
+                            lineNumber: 211,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1448,30 +1449,30 @@ function BlogListClient() {
                                         size: 18
                                     }, void 0, false, {
                                         fileName: "[project]/app/blog/BlogListClient.jsx",
-                                        lineNumber: 211,
+                                        lineNumber: 223,
                                         columnNumber: 15
                                     }, this),
                                     " Chat on WhatsApp"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                                lineNumber: 206,
+                                lineNumber: 218,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/blog/BlogListClient.jsx",
-                            lineNumber: 204,
+                            lineNumber: 216,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/blog/BlogListClient.jsx",
-                    lineNumber: 183,
+                    lineNumber: 195,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/blog/BlogListClient.jsx",
-                lineNumber: 182,
+                lineNumber: 194,
                 columnNumber: 7
             }, this)
         ]

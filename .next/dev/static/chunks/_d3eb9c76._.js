@@ -162,7 +162,7 @@ const services = [
         icon: "◈",
         tagline: "Restore confidence. Restore your hairline.",
         description: "A non-surgical, permanent solution for hair thinning, receding hairlines, and baldness. SMP creates the illusion of a full head of hair using micro-pigment deposits on the scalp.",
-        image: "/images/what_we_do.jpeg",
+        image: "/images/definedcard.png",
         techniques: [
             {
                 name: "Hairline Restoration",
@@ -209,7 +209,7 @@ const services = [
         icon: "•",
         tagline: "A timeless accent. Perfectly placed.",
         description: "Add a touch of elegance with a precisely placed permanent beauty spot. A subtle, timeless accent that enhances your natural features and adds a classic, iconic charm to your look.",
-        image: "/images/what_we_do.jpeg",
+        image: "/images/definedcard.png",
         techniques: [
             {
                 name: "Classic Beauty Spot",
@@ -773,7 +773,7 @@ const galleryItems = [
         id: 4,
         service: "Studio",
         technique: "Artist at Work",
-        image: "/images/what_we_do.jpeg",
+        image: "/images/definedcard.png",
         type: "single",
         alt: "Mayuri Londhe performing permanent makeup — Defined MD Aesthetics studio Nashik"
     },
@@ -919,7 +919,7 @@ function Navbar() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex items-center justify-between h-16 md:h-20",
+                    className: "flex items-center justify-between h-24 md:h-22",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -931,7 +931,7 @@ function Navbar() {
                                 width: 180,
                                 height: 50,
                                 priority: true,
-                                className: "h-auto w-auto max-h-50"
+                                className: "h-auto w-auto max-h-50 md:max-h-50"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar/Navbar.jsx",
                                 lineNumber: 66,
@@ -978,7 +978,7 @@ function Navbar() {
                                             onMouseLeave: ()=>setServicesOpen(false),
                                             children: item.dropdown.map((sub)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                     href: sub.href,
-                                                    className: `block px-5 py-3 text-sm text-[#1A1A1A] hover:bg-[#C68BAA] hover:text-[#432F4F] transition-all duration-200 border-b border-[#FAF7F2] last:border-0 ${pathname === sub.href ? "bg-[#0C3B2E]/5 text-[#432F4F]" : ""}`,
+                                                    className: `block px-5 py-3 text-sm text-[#1A1A1A] hover:bg-[#C68BAA] hover:text-[#432F4F] transition-all duration-200 border-b border-[#FAF7F2] last:border-0 ${pathname === sub.href ? "bg-[#432F4F]/5 text-[#432F4F]" : ""}`,
                                                     style: {
                                                         fontFamily: "var(--font-jost), sans-serif"
                                                     },
@@ -1090,14 +1090,14 @@ function Navbar() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: `lg:hidden transition-all duration-300 overflow-hidden ${mobileOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"} bg-[#0C3B2E] border-t border-[#C9A435]/20`,
+                className: `lg:hidden transition-all duration-300 overflow-hidden ${mobileOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"} bg-[#432F4F] border-t border-[#C9A435]/20`,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "px-4 py-4 space-y-1",
                     children: [
                         __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["navItems"].map((item)=>item.dropdown ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "flex items-center justify-between w-full px-4 py-3 text-[#E8D5A3] text-sm font-medium rounded-xl hover:bg-white/5 transition-colors",
+                                        className: "flex items-center justify-between w-full px-4 py-3 text-[#D8D1BE] text-sm font-medium rounded-xl hover:bg-white/5 transition-colors",
                                         style: {
                                             fontFamily: "var(--font-jost), sans-serif"
                                         },
@@ -1122,7 +1122,7 @@ function Navbar() {
                                         className: "ml-4 mt-1 space-y-1",
                                         children: item.dropdown.map((sub)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: sub.href,
-                                                className: "block px-4 py-2.5 text-[#C9A435] text-sm rounded-xl hover:bg-white/5 transition-colors",
+                                                className: "block px-4 py-2.5 text-[#D8D1BE] text-sm rounded-xl hover:bg-white/5 transition-colors",
                                                 style: {
                                                     fontFamily: "var(--font-jost), sans-serif"
                                                 },
@@ -1144,7 +1144,7 @@ function Navbar() {
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: item.href,
-                                className: `block px-4 py-3 text-sm font-medium rounded-xl transition-colors ${pathname === item.href ? "text-[#C9A435] bg-white/5" : "text-[#E8D5A3] hover:bg-white/5"}`,
+                                className: `block px-4 py-3 text-sm font-medium rounded-xl transition-colors ${pathname === item.href ? "text-[#D8D1BE] bg-white/5" : "text-[#D8D1BE] hover:bg-white/5"}`,
                                 style: {
                                     fontFamily: "var(--font-jost), sans-serif"
                                 },
@@ -1161,7 +1161,7 @@ function Navbar() {
                                     href: "https://wa.me/918422926464",
                                     target: "_blank",
                                     rel: "noopener noreferrer",
-                                    className: "flex items-center gap-2 px-4 py-2.5 rounded-full bg-[#25D366]/20 text-[#25D366] text-sm font-medium flex-1 justify-center",
+                                    className: "flex items-center gap-2 px-4 py-2.5 rounded-full bg-[#a3d0b2] text-[#127e37] text-sm font-medium flex-1 justify-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaWhatsapp"], {
                                             size: 16
@@ -1179,7 +1179,7 @@ function Navbar() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/contact",
-                                    className: "flex-1 text-center px-4 py-2.5 rounded-full bg-[#C9A435] text-[#0C3B2E] text-sm font-semibold",
+                                    className: "flex-1 text-center px-4 py-2.5 rounded-full bg-[#C68BAA] text-[#432F4F] text-sm font-semibold",
                                     style: {
                                         fontFamily: "var(--font-jost), sans-serif"
                                     },

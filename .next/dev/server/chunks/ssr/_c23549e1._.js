@@ -863,29 +863,30 @@ function BlogArticleClient({ post, relatedPosts }) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
-                                    opacity: 0
+                                    opacity: 0,
+                                    scale: 0.8
                                 },
                                 animate: {
-                                    opacity: 1
+                                    opacity: 1,
+                                    scale: 1
                                 },
                                 transition: {
                                     duration: 0.6,
                                     delay: 0.3
                                 },
-                                className: "flex justify-center mb-5 opacity-50",
-                                style: {
-                                    color: "var(--gold)"
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$BrowlineDoodle$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    width: 160
+                                className: "flex justify-center mb-4 opacity-80",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/images/face.png",
+                                    alt: "Defined Aesthetics Logo",
+                                    className: "w-[160px] md:w-[200px] object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 140,
-                                    columnNumber: 13
+                                    lineNumber: 148,
+                                    columnNumber: 3
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                lineNumber: 137,
+                                lineNumber: 142,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -914,14 +915,14 @@ function BlogArticleClient({ post, relatedPosts }) {
                                         children: "Mayuri Londhe"
                                     }, void 0, false, {
                                         fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                        lineNumber: 145,
+                                        lineNumber: 157,
                                         columnNumber: 16
                                     }, this),
                                     " · Defined MD Aesthetics, Nashik"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                lineNumber: 142,
+                                lineNumber: 154,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -949,7 +950,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                 index: i
                             }, i, false, {
                                 fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                lineNumber: 154,
+                                lineNumber: 166,
                                 columnNumber: 13
                             }, this)),
                         post.tags && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -979,7 +980,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 163,
+                                    lineNumber: 175,
                                     columnNumber: 15
                                 }, this),
                                 post.tags.map((tag)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -992,13 +993,13 @@ function BlogArticleClient({ post, relatedPosts }) {
                                         children: tag
                                     }, tag, false, {
                                         fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                        lineNumber: 165,
+                                        lineNumber: 177,
                                         columnNumber: 17
                                     }, this))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                            lineNumber: 159,
+                            lineNumber: 171,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1031,7 +1032,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                     children: "M"
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 180,
+                                    lineNumber: 192,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1044,7 +1045,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                             children: "Mayuri Londhe"
                                         }, void 0, false, {
                                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                            lineNumber: 186,
+                                            lineNumber: 198,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1055,7 +1056,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                             children: "Founder & Lead Artist · Defined MD Aesthetics"
                                         }, void 0, false, {
                                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                            lineNumber: 189,
+                                            lineNumber: 201,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1066,30 +1067,30 @@ function BlogArticleClient({ post, relatedPosts }) {
                                             children: "Certified permanent makeup artist based in Nashik, specialising in eyebrow techniques, lip blush, scalp micropigmentation, and beauty spot making."
                                         }, void 0, false, {
                                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                            lineNumber: 192,
+                                            lineNumber: 204,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 185,
+                                    lineNumber: 197,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                            lineNumber: 176,
+                            lineNumber: 188,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                    lineNumber: 152,
+                    lineNumber: 164,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                lineNumber: 151,
+                lineNumber: 163,
                 columnNumber: 7
             }, this),
             relatedPosts.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1125,7 +1126,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                     children: "Continue Reading"
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 205,
+                                    lineNumber: 217,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1152,7 +1153,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                     children: "More From the Journal"
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 210,
+                                    lineNumber: 222,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1177,18 +1178,18 @@ function BlogArticleClient({ post, relatedPosts }) {
                                         width: 160
                                     }, void 0, false, {
                                         fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                        lineNumber: 218,
+                                        lineNumber: 230,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 215,
+                                    lineNumber: 227,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                            lineNumber: 204,
+                            lineNumber: 216,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1227,7 +1228,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                                     children: related.category
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                                    lineNumber: 231,
+                                                    lineNumber: 243,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1240,7 +1241,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                                                     children: related.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 248,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1254,45 +1255,45 @@ function BlogArticleClient({ post, relatedPosts }) {
                                                             size: 11
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                                            lineNumber: 243,
+                                                            lineNumber: 255,
                                                             columnNumber: 30
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                                    lineNumber: 241,
+                                                    lineNumber: 253,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                            lineNumber: 228,
+                                            lineNumber: 240,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                        lineNumber: 227,
+                                        lineNumber: 239,
                                         columnNumber: 19
                                     }, this)
                                 }, related.slug, false, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 223,
+                                    lineNumber: 235,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                            lineNumber: 221,
+                            lineNumber: 233,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                    lineNumber: 203,
+                    lineNumber: 215,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                lineNumber: 202,
+                lineNumber: 214,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1326,7 +1327,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                             children: "Ready to Book Your Appointment?"
                         }, void 0, false, {
                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                            lineNumber: 257,
+                            lineNumber: 269,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1351,12 +1352,12 @@ function BlogArticleClient({ post, relatedPosts }) {
                                 width: 160
                             }, void 0, false, {
                                 fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                lineNumber: 265,
+                                lineNumber: 277,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                            lineNumber: 262,
+                            lineNumber: 274,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1382,7 +1383,7 @@ function BlogArticleClient({ post, relatedPosts }) {
                             children: "Message Mayuri directly on WhatsApp to book your free consultation or ask any questions."
                         }, void 0, false, {
                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                            lineNumber: 267,
+                            lineNumber: 279,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1417,14 +1418,14 @@ function BlogArticleClient({ post, relatedPosts }) {
                                             size: 17
                                         }, void 0, false, {
                                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                            lineNumber: 280,
+                                            lineNumber: 292,
                                             columnNumber: 15
                                         }, this),
                                         " Book Appointment"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 275,
+                                    lineNumber: 287,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1439,31 +1440,31 @@ function BlogArticleClient({ post, relatedPosts }) {
                                             size: 15
                                         }, void 0, false, {
                                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                            lineNumber: 286,
+                                            lineNumber: 298,
                                             columnNumber: 15
                                         }, this),
                                         " More Articles"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                                    lineNumber: 282,
+                                    lineNumber: 294,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                            lineNumber: 272,
+                            lineNumber: 284,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                    lineNumber: 256,
+                    lineNumber: 268,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/blog/[slug]/BlogArticleClient.jsx",
-                lineNumber: 255,
+                lineNumber: 267,
                 columnNumber: 7
             }, this)
         ]

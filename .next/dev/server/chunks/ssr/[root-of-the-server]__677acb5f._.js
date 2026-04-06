@@ -686,7 +686,7 @@ const services = [
         icon: "◈",
         tagline: "Restore confidence. Restore your hairline.",
         description: "A non-surgical, permanent solution for hair thinning, receding hairlines, and baldness. SMP creates the illusion of a full head of hair using micro-pigment deposits on the scalp.",
-        image: "/images/what_we_do.jpeg",
+        image: "/images/definedcard.png",
         techniques: [
             {
                 name: "Hairline Restoration",
@@ -733,7 +733,7 @@ const services = [
         icon: "•",
         tagline: "A timeless accent. Perfectly placed.",
         description: "Add a touch of elegance with a precisely placed permanent beauty spot. A subtle, timeless accent that enhances your natural features and adds a classic, iconic charm to your look.",
-        image: "/images/what_we_do.jpeg",
+        image: "/images/definedcard.png",
         techniques: [
             {
                 name: "Classic Beauty Spot",
@@ -1297,7 +1297,7 @@ const galleryItems = [
         id: 4,
         service: "Studio",
         technique: "Artist at Work",
-        image: "/images/what_we_do.jpeg",
+        image: "/images/definedcard.png",
         type: "single",
         alt: "Mayuri Londhe performing permanent makeup — Defined MD Aesthetics studio Nashik"
     },

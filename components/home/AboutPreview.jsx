@@ -118,7 +118,7 @@ export default function AboutPreview() {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl"
             style={{ border: "2px solid rgba(201,164,53,0.4)" }}>
             <Image
-              src="/images/what_we_do.jpeg"
+              src="/images/definedcard.png"
               alt="Defined MD Aesthetics — services overview by Mayuri Londhe Nashik"
               width={600}
               height={450}

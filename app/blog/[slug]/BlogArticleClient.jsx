@@ -134,11 +134,23 @@ export default function BlogArticleClient({ post, relatedPosts }) {
             style={{ color: "var(--gold)", fontSize: "clamp(2rem, 5vw, 3.5rem)", lineHeight: 1.2 }}>
             {post.title}
           </motion.h1>
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.3 }}
             className="flex justify-center mb-5 opacity-50" style={{ color: "var(--gold)" }}>
             <BrowlineDoodle width={160} />
-          </motion.div>
+          </motion.div> */}
+          <motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.6, delay: 0.3 }}
+  className="flex justify-center mb-4 opacity-80"
+>
+  <img
+    src="/images/face.png"
+    alt="Defined Aesthetics Logo"
+    className="w-[50px] md:w-[100px] object-contain"
+  />
+</motion.div>
           <motion.p
             initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.4 }}
             className="font-jost font-light text-sm" style={{ color: "rgba(232,213,163,0.6)" }}>

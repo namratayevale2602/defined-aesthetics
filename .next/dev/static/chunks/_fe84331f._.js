@@ -866,29 +866,30 @@ function ContactClient() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
-                                    opacity: 0
+                                    opacity: 0,
+                                    scale: 0.8
                                 },
                                 animate: {
-                                    opacity: 1
+                                    opacity: 1,
+                                    scale: 1
                                 },
                                 transition: {
                                     duration: 0.6,
                                     delay: 0.3
                                 },
-                                className: "flex justify-center mb-5 opacity-50",
-                                style: {
-                                    color: "var(--gold)"
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$BrowlineDoodle$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    width: 180
+                                className: "flex justify-center mb-4 opacity-80",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/images/face.png",
+                                    alt: "Defined Aesthetics Logo",
+                                    className: "w-[50px] md:w-[100px] object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 99,
-                                    columnNumber: 13
+                                    lineNumber: 107,
+                                    columnNumber: 3
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                lineNumber: 96,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -911,7 +912,7 @@ function ContactClient() {
                                 children: "Free consultation included. Reach out on WhatsApp, call, or fill the form below — Mayuri will get back to you promptly."
                             }, void 0, false, {
                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                lineNumber: 101,
+                                lineNumber: 113,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -959,7 +960,7 @@ function ContactClient() {
                                     children: "Get in Touch"
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 113,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -986,7 +987,7 @@ function ContactClient() {
                                     children: "Reach Mayuri Directly"
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 118,
+                                    lineNumber: 130,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1011,18 +1012,18 @@ function ContactClient() {
                                         width: 160
                                     }, void 0, false, {
                                         fileName: "[project]/app/contact/ContactClient.jsx",
-                                        lineNumber: 126,
+                                        lineNumber: 138,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 123,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/contact/ContactClient.jsx",
-                            lineNumber: 112,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1061,7 +1062,7 @@ function ContactClient() {
                                                 children: card.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                                lineNumber: 141,
+                                                lineNumber: 153,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1072,7 +1073,7 @@ function ContactClient() {
                                                 children: card.title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                                lineNumber: 146,
+                                                lineNumber: 158,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1083,7 +1084,7 @@ function ContactClient() {
                                                 children: card.value
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                                lineNumber: 149,
+                                                lineNumber: 161,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1094,7 +1095,7 @@ function ContactClient() {
                                                 children: card.sub
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                                lineNumber: 152,
+                                                lineNumber: 164,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1109,40 +1110,40 @@ function ContactClient() {
                                                         size: 11
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/ContactClient.jsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 170,
                                                         columnNumber: 32
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                                lineNumber: 155,
+                                                lineNumber: 167,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/contact/ContactClient.jsx",
-                                        lineNumber: 135,
+                                        lineNumber: 147,
                                         columnNumber: 17
                                     }, this)
                                 }, card.title, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 131,
+                                    lineNumber: 143,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/contact/ContactClient.jsx",
-                            lineNumber: 129,
+                            lineNumber: 141,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/contact/ContactClient.jsx",
-                    lineNumber: 111,
+                    lineNumber: 123,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/contact/ContactClient.jsx",
-                lineNumber: 110,
+                lineNumber: 122,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1177,7 +1178,7 @@ function ContactClient() {
                                     children: "Send an Enquiry"
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 173,
+                                    lineNumber: 185,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1189,7 +1190,7 @@ function ContactClient() {
                                     children: "Book via WhatsApp Form"
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 176,
+                                    lineNumber: 188,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1201,12 +1202,12 @@ function ContactClient() {
                                         width: 160
                                     }, void 0, false, {
                                         fileName: "[project]/app/contact/ContactClient.jsx",
-                                        lineNumber: 180,
+                                        lineNumber: 192,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 179,
+                                    lineNumber: 191,
                                     columnNumber: 13
                                 }, this),
                                 submitted ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1224,7 +1225,7 @@ function ContactClient() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 187,
+                                            lineNumber: 199,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1235,7 +1236,7 @@ function ContactClient() {
                                             children: "WhatsApp Opened!"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 188,
+                                            lineNumber: 200,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1246,13 +1247,13 @@ function ContactClient() {
                                             children: "Your enquiry details have been pre-filled in WhatsApp. Simply press send and Mayuri will respond shortly."
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 191,
+                                            lineNumber: 203,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 184,
+                                    lineNumber: 196,
                                     columnNumber: 15
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                     onSubmit: handleSubmit,
@@ -1268,7 +1269,7 @@ function ContactClient() {
                                                     children: "Your Name *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 198,
+                                                    lineNumber: 210,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1287,13 +1288,13 @@ function ContactClient() {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 201,
+                                                    lineNumber: 213,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 197,
+                                            lineNumber: 209,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1306,7 +1307,7 @@ function ContactClient() {
                                                     children: "Phone Number *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 218,
+                                                    lineNumber: 230,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1323,13 +1324,13 @@ function ContactClient() {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 221,
+                                                    lineNumber: 233,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 217,
+                                            lineNumber: 229,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1342,7 +1343,7 @@ function ContactClient() {
                                                     children: "Service Interested In"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 233,
+                                                    lineNumber: 245,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1360,7 +1361,7 @@ function ContactClient() {
                                                             children: "Select a service…"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 242,
+                                                            lineNumber: 254,
                                                             columnNumber: 21
                                                         }, this),
                                                         __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$data$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["services"].map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1368,7 +1369,7 @@ function ContactClient() {
                                                                 children: s.title
                                                             }, s.slug, false, {
                                                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                lineNumber: 244,
+                                                                lineNumber: 256,
                                                                 columnNumber: 23
                                                             }, this)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1376,19 +1377,19 @@ function ContactClient() {
                                                             children: "Not sure yet — free consultation"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 246,
+                                                            lineNumber: 258,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 248,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 232,
+                                            lineNumber: 244,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1401,7 +1402,7 @@ function ContactClient() {
                                                     children: "Message (optional)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 250,
+                                                    lineNumber: 262,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1417,13 +1418,13 @@ function ContactClient() {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 253,
+                                                    lineNumber: 265,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 249,
+                                            lineNumber: 261,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1438,14 +1439,14 @@ function ContactClient() {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 267,
+                                                    lineNumber: 279,
                                                     columnNumber: 19
                                                 }, this),
                                                 " Send via WhatsApp"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 263,
+                                            lineNumber: 275,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1456,19 +1457,19 @@ function ContactClient() {
                                             children: "Clicking send will open WhatsApp with your details pre-filled."
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 269,
+                                            lineNumber: 281,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 196,
+                                    lineNumber: 208,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/contact/ContactClient.jsx",
-                            lineNumber: 171,
+                            lineNumber: 183,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1503,7 +1504,7 @@ function ContactClient() {
                                             children: "Studio Info"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 284,
+                                            lineNumber: 296,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1514,7 +1515,7 @@ function ContactClient() {
                                             children: "Defined MD Aesthetics"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 285,
+                                            lineNumber: 297,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1531,7 +1532,7 @@ function ContactClient() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 290,
+                                                            lineNumber: 302,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1544,7 +1545,7 @@ function ContactClient() {
                                                                     children: "Location"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 292,
+                                                                    lineNumber: 304,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1555,19 +1556,19 @@ function ContactClient() {
                                                                     children: "Nashik, Maharashtra, India"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 293,
+                                                                    lineNumber: 305,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 291,
+                                                            lineNumber: 303,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 289,
+                                                    lineNumber: 301,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1581,7 +1582,7 @@ function ContactClient() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 297,
+                                                            lineNumber: 309,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1594,7 +1595,7 @@ function ContactClient() {
                                                                     children: "Working Hours"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 299,
+                                                                    lineNumber: 311,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1605,7 +1606,7 @@ function ContactClient() {
                                                                     children: "Monday – Saturday"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 300,
+                                                                    lineNumber: 312,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1616,19 +1617,19 @@ function ContactClient() {
                                                                     children: "10:00 AM – 7:00 PM"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 301,
+                                                                    lineNumber: 313,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 298,
+                                                            lineNumber: 310,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 296,
+                                                    lineNumber: 308,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1642,7 +1643,7 @@ function ContactClient() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 305,
+                                                            lineNumber: 317,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1655,7 +1656,7 @@ function ContactClient() {
                                                                     children: "Phone / WhatsApp"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 307,
+                                                                    lineNumber: 319,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1667,19 +1668,19 @@ function ContactClient() {
                                                                     children: "+91 84229 26464"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 308,
+                                                                    lineNumber: 320,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 306,
+                                                            lineNumber: 318,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 304,
+                                                    lineNumber: 316,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1693,7 +1694,7 @@ function ContactClient() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 314,
+                                                            lineNumber: 326,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1706,7 +1707,7 @@ function ContactClient() {
                                                                     children: "Email"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 316,
+                                                                    lineNumber: 328,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1718,31 +1719,31 @@ function ContactClient() {
                                                                     children: "definedaestheticsbymayuri@gmail.com"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                                    lineNumber: 317,
+                                                                    lineNumber: 329,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 315,
+                                                            lineNumber: 327,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 313,
+                                                    lineNumber: 325,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 288,
+                                            lineNumber: 300,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 281,
+                                    lineNumber: 293,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1761,12 +1762,12 @@ function ContactClient() {
                                                 size: 80
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                                lineNumber: 333,
+                                                lineNumber: 345,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 332,
+                                            lineNumber: 344,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1777,7 +1778,7 @@ function ContactClient() {
                                             children: "What to Expect"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 335,
+                                            lineNumber: 347,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1788,7 +1789,7 @@ function ContactClient() {
                                             children: "Your First Appointment"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 338,
+                                            lineNumber: 350,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1814,25 +1815,25 @@ function ContactClient() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 351,
+                                                            lineNumber: 363,
                                                             columnNumber: 21
                                                         }, this),
                                                         item
                                                     ]
                                                 }, i, true, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 350,
+                                                    lineNumber: 362,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 341,
+                                            lineNumber: 353,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 329,
+                                    lineNumber: 341,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1849,7 +1850,7 @@ function ContactClient() {
                                             children: "Our Services"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 362,
+                                            lineNumber: 374,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1868,42 +1869,42 @@ function ContactClient() {
                                                             children: svc.icon
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                                            lineNumber: 372,
+                                                            lineNumber: 384,
                                                             columnNumber: 21
                                                         }, this),
                                                         svc.shortTitle
                                                     ]
                                                 }, svc.slug, true, {
                                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                                    lineNumber: 367,
+                                                    lineNumber: 379,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 365,
+                                            lineNumber: 377,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 359,
+                                    lineNumber: 371,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/contact/ContactClient.jsx",
-                            lineNumber: 277,
+                            lineNumber: 289,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/contact/ContactClient.jsx",
-                    lineNumber: 169,
+                    lineNumber: 181,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/contact/ContactClient.jsx",
-                lineNumber: 168,
+                lineNumber: 180,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1935,12 +1936,12 @@ function ContactClient() {
                                 size: 70
                             }, void 0, false, {
                                 fileName: "[project]/app/contact/ContactClient.jsx",
-                                lineNumber: 388,
+                                lineNumber: 400,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/contact/ContactClient.jsx",
-                            lineNumber: 385,
+                            lineNumber: 397,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1966,7 +1967,7 @@ function ContactClient() {
                             children: "Follow the Journey"
                         }, void 0, false, {
                             fileName: "[project]/app/contact/ContactClient.jsx",
-                            lineNumber: 390,
+                            lineNumber: 402,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -2000,13 +2001,13 @@ function ContactClient() {
                                     children: "@_defined_aesthetics_by_mayuri"
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 399,
+                                    lineNumber: 411,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/contact/ContactClient.jsx",
-                            lineNumber: 395,
+                            lineNumber: 407,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2041,14 +2042,14 @@ function ContactClient() {
                                             size: 17
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 409,
+                                            lineNumber: 421,
                                             columnNumber: 15
                                         }, this),
                                         " Follow on Instagram"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 404,
+                                    lineNumber: 416,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2064,30 +2065,30 @@ function ContactClient() {
                                             size: 15
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/ContactClient.jsx",
-                                            lineNumber: 415,
+                                            lineNumber: 427,
                                             columnNumber: 28
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/ContactClient.jsx",
-                                    lineNumber: 411,
+                                    lineNumber: 423,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/contact/ContactClient.jsx",
-                            lineNumber: 401,
+                            lineNumber: 413,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/contact/ContactClient.jsx",
-                    lineNumber: 384,
+                    lineNumber: 396,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/contact/ContactClient.jsx",
-                lineNumber: 383,
+                lineNumber: 395,
                 columnNumber: 7
             }, this)
         ]

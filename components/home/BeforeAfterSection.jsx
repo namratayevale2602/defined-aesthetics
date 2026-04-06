@@ -15,19 +15,21 @@ const results = [
     caption: "From sparse, undefined brows to bold, natural-looking arches.",
     isComposite: true,
   },
-  {
-    label: "Lip Blush",
-    technique: "Dark Neutralisation",
-    beforeImage: "/images/facial_before.jpeg",
-    afterImage: "/images/facial_after.jpeg",
-    caption: "Deeply pigmented lips transformed to a beautiful natural pink.",
-    isComposite: false,
-  },
+  
   {
     label: "Lip Blush",
     technique: "Lip Blush Treatment",
     image: "/images/lip_before_after.jpeg",
     caption: "Stunning lip colour enhancement — side by side result.",
+    isComposite: true,
+  },
+  {
+    label: "Scalp Micropigmentation",
+    technique: "hair follicles",
+    image: "/images/scalpmicropigmentation.webp",
+    // beforeImage: "/images/scalpmicropigmentation.webp",
+    // afterImage: "/images/facial_after.jpeg",
+    caption: "Deeply pigmented lips transformed to a beautiful natural pink.",
     isComposite: true,
   },
 ];

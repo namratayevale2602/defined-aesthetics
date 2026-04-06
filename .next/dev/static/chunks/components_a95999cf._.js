@@ -1045,30 +1045,6 @@ function HeroSection() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative z-10 flex flex-col items-center text-center px-6 max-w-3xl mx-auto",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                        variants: fadeUp,
-                        initial: "hidden",
-                        animate: "show",
-                        transition: {
-                            duration: 0.8,
-                            delay: 0.2
-                        },
-                        className: "mb-6 opacity-50",
-                        style: {
-                            color: "var(--gold)"
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$BrowlineDoodle$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            width: 200
-                        }, void 0, false, {
-                            fileName: "[project]/components/home/HeroSection.jsx",
-                            lineNumber: 73,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/home/HeroSection.jsx",
-                        lineNumber: 65,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
                         variants: fadeUp,
                         initial: "hidden",
@@ -1082,7 +1058,7 @@ function HeroSection() {
                             color: "var(--gold)",
                             fontSize: "clamp(2.8rem, 7vw, 5rem)"
                         },
-                        children: "Defined Beauty."
+                        children: "Stay Beautiful Forever"
                     }, void 0, false, {
                         fileName: "[project]/components/home/HeroSection.jsx",
                         lineNumber: 77,
@@ -1471,7 +1447,7 @@ const services = [
         title: "Scalp Micropigmentation",
         techniques: "Hairline Restoration · Density · Full Scalp",
         desc: "A non-surgical permanent solution that recreates the look of hair follicles, restoring confidence for men and women.",
-        image: "/images/what_we_do.jpeg",
+        image: "/images/scalpmicropigmentation.webp",
         imageAlt: "Scalp micropigmentation SMP treatment — Defined MD Aesthetics Nashik"
     },
     {
@@ -1480,7 +1456,7 @@ const services = [
         title: "Beauty Spot Making",
         techniques: "Classic Placement · Custom Position",
         desc: "A timeless, precisely placed beauty mark that adds classic elegance and a signature touch to your natural features.",
-        image: "/images/what_we_do_2.jpeg",
+        image: "/images/beautyspotmaking.jpg",
         imageAlt: "Permanent beauty spot making — Defined MD Aesthetics by Mayuri Londhe"
     }
 ];
@@ -1650,7 +1626,7 @@ function ServicesSection() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0",
                                                 style: {
-                                                    background: "linear-gradient(to top, rgba(12,59,46,0.85) 0%, rgba(12,59,46,0.2) 60%, transparent 100%)"
+                                                    background: "linear-gradient(to top, rgba(67, 47, 78) 0%, rgba(12,59,46,0.2) 60%, transparent 100%)"
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/ServicesSection.jsx",
@@ -2468,17 +2444,18 @@ const results = [
     },
     {
         label: "Lip Blush",
-        technique: "Dark Neutralisation",
-        beforeImage: "/images/facial_before.jpeg",
-        afterImage: "/images/facial_after.jpeg",
-        caption: "Deeply pigmented lips transformed to a beautiful natural pink.",
-        isComposite: false
-    },
-    {
-        label: "Lip Blush",
         technique: "Lip Blush Treatment",
         image: "/images/lip_before_after.jpeg",
         caption: "Stunning lip colour enhancement — side by side result.",
+        isComposite: true
+    },
+    {
+        label: "Scalp Micropigmentation",
+        technique: "hair follicles",
+        image: "/images/scalpmicropigmentation.webp",
+        // beforeImage: "/images/scalpmicropigmentation.webp",
+        // afterImage: "/images/facial_after.jpeg",
+        caption: "Deeply pigmented lips transformed to a beautiful natural pink.",
         isComposite: true
     }
 ];
@@ -2498,12 +2475,12 @@ function BeforeAfterSection() {
                     size: 80
                 }, void 0, false, {
                     fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                    lineNumber: 40,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                lineNumber: 39,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2516,12 +2493,12 @@ function BeforeAfterSection() {
                     size: 55
                 }, void 0, false, {
                     fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                    lineNumber: 43,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                lineNumber: 42,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2552,7 +2529,7 @@ function BeforeAfterSection() {
                                 children: "Authentic Client Results"
                             }, void 0, false, {
                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                lineNumber: 49,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -2579,7 +2556,7 @@ function BeforeAfterSection() {
                                 children: "Real Transformations"
                             }, void 0, false, {
                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                lineNumber: 59,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2604,12 +2581,12 @@ function BeforeAfterSection() {
                                     width: 180
                                 }, void 0, false, {
                                     fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 79,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                lineNumber: 69,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -2635,13 +2612,13 @@ function BeforeAfterSection() {
                                 children: "Every result is a real client of Mayuri Londhe at Defined MD Aesthetics, Nashik."
                             }, void 0, false, {
                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                lineNumber: 79,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                        lineNumber: 48,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2681,7 +2658,7 @@ function BeforeAfterSection() {
                                                 children: r.label
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                                lineNumber: 105,
+                                                lineNumber: 107,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2693,13 +2670,13 @@ function BeforeAfterSection() {
                                                 children: r.technique
                                             }, void 0, false, {
                                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                                lineNumber: 108,
+                                                lineNumber: 110,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                        lineNumber: 104,
+                                        lineNumber: 106,
                                         columnNumber: 15
                                     }, this),
                                     r.isComposite ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2711,12 +2688,12 @@ function BeforeAfterSection() {
                                             className: "object-cover group-hover:scale-105 transition-transform duration-500"
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                            lineNumber: 116,
+                                            lineNumber: 118,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                        lineNumber: 115,
+                                        lineNumber: 117,
                                         columnNumber: 17
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "grid grid-cols-2 gap-0.5",
@@ -2731,7 +2708,7 @@ function BeforeAfterSection() {
                                                         className: "object-cover group-hover:scale-105 transition-transform duration-500"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                                        lineNumber: 126,
+                                                        lineNumber: 128,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2743,13 +2720,13 @@ function BeforeAfterSection() {
                                                         children: "Before"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                                        lineNumber: 132,
+                                                        lineNumber: 134,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                                lineNumber: 125,
+                                                lineNumber: 127,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2762,7 +2739,7 @@ function BeforeAfterSection() {
                                                         className: "object-cover group-hover:scale-105 transition-transform duration-500"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                                        lineNumber: 138,
+                                                        lineNumber: 140,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2774,19 +2751,19 @@ function BeforeAfterSection() {
                                                         children: "After"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 146,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                                lineNumber: 137,
+                                                lineNumber: 139,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                        lineNumber: 124,
+                                        lineNumber: 126,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2802,23 +2779,23 @@ function BeforeAfterSection() {
                                             children: r.caption
                                         }, void 0, false, {
                                             fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                            lineNumber: 154,
+                                            lineNumber: 156,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                        lineNumber: 153,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, i, true, {
                                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                lineNumber: 94,
+                                lineNumber: 96,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                        lineNumber: 92,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2851,30 +2828,30 @@ function BeforeAfterSection() {
                                     size: 16
                                 }, void 0, false, {
                                     fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                                    lineNumber: 173,
+                                    lineNumber: 175,
                                     columnNumber: 31
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                            lineNumber: 168,
+                            lineNumber: 170,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                        lineNumber: 161,
+                        lineNumber: 163,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/home/BeforeAfterSection.jsx",
-                lineNumber: 46,
+                lineNumber: 48,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/home/BeforeAfterSection.jsx",
-        lineNumber: 37,
+        lineNumber: 39,
         columnNumber: 5
     }, this);
 }

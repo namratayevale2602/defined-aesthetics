@@ -1050,29 +1050,30 @@ function GalleryClient() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
-                                    opacity: 0
+                                    opacity: 0,
+                                    scale: 0.8
                                 },
                                 animate: {
-                                    opacity: 1
+                                    opacity: 1,
+                                    scale: 1
                                 },
                                 transition: {
                                     duration: 0.6,
                                     delay: 0.3
                                 },
-                                className: "flex justify-center mb-5 opacity-50",
-                                style: {
-                                    color: "var(--gold)"
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$doodles$2f$BrowlineDoodle$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    width: 180
+                                className: "flex justify-center mb-4 opacity-80",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/images/face.png",
+                                    alt: "Defined Aesthetics Logo",
+                                    className: "w-[50px] md:w-[100px] object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                    lineNumber: 156,
-                                    columnNumber: 13
+                                    lineNumber: 165,
+                                    columnNumber: 3
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                lineNumber: 153,
+                                lineNumber: 159,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1095,7 +1096,7 @@ function GalleryClient() {
                                 children: "Every result you see is a real client transformation by Mayuri Londhe at Defined MD Aesthetics, Nashik."
                             }, void 0, false, {
                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                lineNumber: 158,
+                                lineNumber: 172,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1148,12 +1149,12 @@ function GalleryClient() {
                                     children: f
                                 }, f, false, {
                                     fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                    lineNumber: 174,
+                                    lineNumber: 188,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                            lineNumber: 170,
+                            lineNumber: 184,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -1192,45 +1193,45 @@ function GalleryClient() {
                                             item: item
                                         }, void 0, false, {
                                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                            lineNumber: 204,
+                                            lineNumber: 218,
                                             columnNumber: 21
                                         }, this) : item.type === "single" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SingleCard, {
                                             item: item
                                         }, void 0, false, {
                                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                            lineNumber: 206,
+                                            lineNumber: 220,
                                             columnNumber: 21
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CompositeCard, {
                                             item: item
                                         }, void 0, false, {
                                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                            lineNumber: 208,
+                                            lineNumber: 222,
                                             columnNumber: 21
                                         }, this)
                                     }, item.id, false, {
                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                        lineNumber: 198,
+                                        lineNumber: 212,
                                         columnNumber: 17
                                     }, this))
                             }, activeFilter, false, {
                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                lineNumber: 190,
+                                lineNumber: 204,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                            lineNumber: 189,
+                            lineNumber: 203,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/gallery/GalleryClient.jsx",
-                    lineNumber: 168,
+                    lineNumber: 182,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                lineNumber: 167,
+                lineNumber: 181,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1267,7 +1268,7 @@ function GalleryClient() {
                                         children: "See More Work"
                                     }, void 0, false, {
                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                        lineNumber: 222,
+                                        lineNumber: 236,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1294,7 +1295,7 @@ function GalleryClient() {
                                         children: "Follow Us on Instagram"
                                     }, void 0, false, {
                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                        lineNumber: 227,
+                                        lineNumber: 241,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1319,12 +1320,12 @@ function GalleryClient() {
                                             width: 160
                                         }, void 0, false, {
                                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                            lineNumber: 235,
+                                            lineNumber: 249,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                        lineNumber: 232,
+                                        lineNumber: 246,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1357,14 +1358,14 @@ function GalleryClient() {
                                                 children: "@_defined_aesthetics_by_mayuri"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                                lineNumber: 241,
+                                                lineNumber: 255,
                                                 columnNumber: 17
                                             }, this),
                                             " for the full portfolio."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                        lineNumber: 237,
+                                        lineNumber: 251,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1399,14 +1400,14 @@ function GalleryClient() {
                                                         size: 17
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                                        lineNumber: 251,
+                                                        lineNumber: 265,
                                                         columnNumber: 19
                                                     }, this),
                                                     " View Instagram"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                                lineNumber: 246,
+                                                lineNumber: 260,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1423,26 +1424,26 @@ function GalleryClient() {
                                                         size: 17
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                                        lineNumber: 258,
+                                                        lineNumber: 272,
                                                         columnNumber: 19
                                                     }, this),
                                                     " Book Appointment"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                                lineNumber: 253,
+                                                lineNumber: 267,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                        lineNumber: 243,
+                                        lineNumber: 257,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                lineNumber: 221,
+                                lineNumber: 235,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1476,12 +1477,12 @@ function GalleryClient() {
                                             className: "w-full h-auto object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                            lineNumber: 266,
+                                            lineNumber: 280,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                        lineNumber: 265,
+                                        lineNumber: 279,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1497,34 +1498,34 @@ function GalleryClient() {
                                             children: "Scan to Follow"
                                         }, void 0, false, {
                                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                            lineNumber: 276,
+                                            lineNumber: 290,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                        lineNumber: 274,
+                                        lineNumber: 288,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                lineNumber: 262,
+                                lineNumber: 276,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/gallery/GalleryClient.jsx",
-                        lineNumber: 220,
+                        lineNumber: 234,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/gallery/GalleryClient.jsx",
-                    lineNumber: 219,
+                    lineNumber: 233,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                lineNumber: 218,
+                lineNumber: 232,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1556,12 +1557,12 @@ function GalleryClient() {
                                 size: 80
                             }, void 0, false, {
                                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                lineNumber: 291,
+                                lineNumber: 305,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                            lineNumber: 288,
+                            lineNumber: 302,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -1587,7 +1588,7 @@ function GalleryClient() {
                             children: "Love What You See?"
                         }, void 0, false, {
                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                            lineNumber: 293,
+                            lineNumber: 307,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1613,7 +1614,7 @@ function GalleryClient() {
                             children: "Your transformation is waiting. Book your free consultation with Mayuri and take the first step toward waking up with defined, effortless beauty every single day."
                         }, void 0, false, {
                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                            lineNumber: 298,
+                            lineNumber: 312,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1648,14 +1649,14 @@ function GalleryClient() {
                                             size: 17
                                         }, void 0, false, {
                                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                            lineNumber: 311,
+                                            lineNumber: 325,
                                             columnNumber: 15
                                         }, this),
                                         " Book Appointment"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                    lineNumber: 306,
+                                    lineNumber: 320,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1671,30 +1672,30 @@ function GalleryClient() {
                                             size: 15
                                         }, void 0, false, {
                                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                            lineNumber: 317,
+                                            lineNumber: 331,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/gallery/GalleryClient.jsx",
-                                    lineNumber: 313,
+                                    lineNumber: 327,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/gallery/GalleryClient.jsx",
-                            lineNumber: 303,
+                            lineNumber: 317,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/gallery/GalleryClient.jsx",
-                    lineNumber: 287,
+                    lineNumber: 301,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/gallery/GalleryClient.jsx",
-                lineNumber: 286,
+                lineNumber: 300,
                 columnNumber: 7
             }, this)
         ]

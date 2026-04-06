@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "d11f31c6b1d45969d81417fda70a09fb",
-    "previewModeSigningKey": "7b79c8860afe4701eb90b9089d7163d56ca02c09e6acae8a538ce5d8dd2a857e",
-    "previewModeEncryptionKey": "97634f1fa14be9d4f605e46ad547ccefb35380fff954c45ee22aef8b550d0f86"
-  }
-}
+{"version":4,"routes":{"/blog/microblading-vs-ombre-brows":{},"/blog/dark-lip-neutralisation-guide":{},"/blog/microblading-aftercare-tips":{},"/blog/what-is-scalp-micropigmentation":{},"/blog/lip-blush-indian-skin-tones":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"fc200857a6a09560c875fbdeeded40bf","previewModeSigningKey":"e85345623bbefba18e4640aa63d831f34ff73cd43106705372c7b8975b94d823","previewModeEncryptionKey":"ef401a80ee3c694f1aa37412a7a7c402e1e387a0fa02b5608a98b59542030bad"}}
